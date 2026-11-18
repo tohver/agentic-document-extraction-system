@@ -1,0 +1,115 @@
+{
+  "doc_id": "POL-2025-004",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "Deductible column per coverage row (AOP on the Coverage A row); percentage wind/hail deductible with the computed amount stated.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-004",
+    "carrier": "Heartland Residential Insurance",
+    "policyholder": "Gregory & Patricia Lindholm",
+    "policy_type": "home",
+    "policy_type_detail": null,
+    "policy_form": "HO-3",
+    "effective_date": "2025-07-01",
+    "expiration_date": "2026-07-01",
+    "premium_amount": "1684.25",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "A - Dwelling",
+        "amount": "1500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": true
+      },
+      {
+        "applies_to": "B - Other Structures",
+        "amount": "1500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      },
+      {
+        "applies_to": "C - Personal Property",
+        "amount": "1500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      },
+      {
+        "applies_to": "Wind/Hail",
+        "amount": "7700",
+        "percent": "2",
+        "percent_of": "Coverage A",
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "A - Dwelling",
+        "amount": "385000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "B - Other Structures",
+        "amount": "38500",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "C - Personal Property",
+        "amount": "192500",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "D - Loss of Use",
+        "amount": "77000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "E - Personal Liab.",
+        "amount": "300000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "F - Medical Payments",
+        "amount": "5000",
+        "basis": "other",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Personal Property Replacement Cost",
+        "form_code": "HO-04-90",
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Scheduled Personal Property - Jewelry",
+        "form_code": "HO-04-65",
+        "limit_amount": "12000",
+        "limit_text": null
+      },
+      {
+        "name": "Service Line Coverage",
+        "form_code": "HO-23-70",
+        "limit_amount": "10000",
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Earth Movement / Earthquake",
+      "Flood (see separate NFIP policy if required)",
+      "Neglect / Intentional Loss",
+      "Ordinance or Law (limited coverage applies)"
+    ],
+    "exclusions_complete": true
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-013",
+      "carrier": "Blue Heron Indemnity Company",
+      "policyholder": "Marcus & Delphine Okafor",
+      "policy_type": "umbrella",
+      "policy_type_detail": "",
+      "policy_form": "PUP-200",
+      "effective_date": "2025-12-01",
+      "expiration_date": "2026-12-01",
+      "premium_amount": "845.00",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "self-insured retention",
+          "amount": "1000",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "RETAINED LIMIT (SIR)                      $ 1,000"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Limit of Liability - Each occurrence",
+          "amount": "3000000",
+          "basis": "per_occurrence",
+          "note": "",
+          "quote": "Each occurrence                         $ 3,000,000"
+        },
+        {
+          "coverage": "Limit of Liability - Annual aggregate",
+          "amount": "3000000",
+          "basis": "aggregate",
+          "note": "",
+          "quote": "Annual aggregate                        $ 3,000,000"
+        }
+      ],
+      "underlying_requirements": [
+        {
+          "coverage": "Automobile liability",
+          "limits_text": "300/500/100",
+          "quote": "Automobile liability     300/500/100"
+        },
+        {
+          "coverage": "Homeowners liability",
+          "limits_text": "$500,000 each occurrence",
+          "quote": "Homeowners liability     $500,000 each occurrence"
+        }
+      ],
+      "endorsements": [
+        {
+          "name": "Uninsured / Underinsured Motorist Excess",
+          "form_code": "PUP-14",
+          "limit_amount": "1000000",
+          "limit_text": "",
+          "quote": "PUP-14  Uninsured / Underinsured Motorist Excess   $1,000,000"
+        },
+        {
+          "name": "Rented Watercraft Liability",
+          "form_code": "PUP-22",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "PUP-22  Rented Watercraft Liability"
+        }
+      ],
+      "exclusions": [
+        "Professional services and business pursuits",
+        "Owned or chartered aircraft",
+        "Communicable disease transmission",
+        "Expected or intended injury"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "PERSONAL UMBRELLA RENEWAL",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy Number        POL-2025-013",
+        "confidence": 0.99
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "BLUE HERON INDEMNITY COMPANY",
+        "confidence": 0.97
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Insured              Marcus & Delphine Okafor",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "PERSONAL UMBRELLA RENEWAL",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "policy_form",
+        "status": "stated",
+        "quote": "Form                 PUP-200",
+        "confidence": 0.97
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Coverage Period      12/01/2025 - 12/01/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Coverage Period      12/01/2025 - 12/01/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "PREMIUM                                   $   845.00",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.96
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "RETAINED LIMIT (SIR)                      $ 1,000",
+        "confidence": 0.95
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "LIMIT OF LIABILITY",
+        "confidence": 0.95
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "stated",
+        "quote": "REQUIRED UNDERLYING INSURANCE",
+        "confidence": 0.96
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "ENDORSEMENTS",
+        "confidence": 0.96
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.97
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.97
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wgHW9gvSArWZpSzLQX",
+  "usage": {
+    "input_tokens": 417,
+    "output_tokens": 1469,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 7.841134599992074,
+  "batch": false
+}

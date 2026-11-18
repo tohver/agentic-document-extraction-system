@@ -1,0 +1,83 @@
+{
+  "doc_id": "POL-2025-014",
+  "expected_outcome": "human_review",
+  "expected_escalation": null,
+  "why": "Watercraft: a specialty product, so policy_type other; NIL liability deductible.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-014",
+    "carrier": "Seaward Marine Underwriters, Inc.",
+    "policyholder": "Rosalind T. Ferreira",
+    "policy_type": "other",
+    "policy_type_detail": "Boatowners Package (Watercraft)",
+    "policy_form": "SMU-BP-19",
+    "effective_date": "2025-05-15",
+    "expiration_date": "2026-05-15",
+    "premium_amount": "1148.75",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Hull and Machinery",
+        "amount": "1920",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      },
+      {
+        "applies_to": "Liability",
+        "amount": "0",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Hull and Machinery",
+        "amount": "96000",
+        "basis": "other",
+        "note": "Agreed Value"
+      },
+      {
+        "coverage": "Watercraft Liability",
+        "amount": "500000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "Medical Payments",
+        "amount": "10000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Uninsured Boater",
+        "amount": "100000",
+        "basis": "per_occurrence",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Towing and Assistance",
+        "form_code": null,
+        "limit_amount": "500",
+        "limit_text": null
+      },
+      {
+        "name": "Fishing Equipment",
+        "form_code": null,
+        "limit_amount": "2500",
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Use in any race or speed test",
+      "Commercial charter or rental to others",
+      "Wear and tear, marine borers, gradual deterioration",
+      "Operation by any person under the influence"
+    ],
+    "exclusions_complete": true
+  }
+}

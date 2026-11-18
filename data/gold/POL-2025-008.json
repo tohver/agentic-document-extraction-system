@@ -1,0 +1,71 @@
+{
+  "doc_id": "POL-2025-008",
+  "expected_outcome": "human_review",
+  "expected_escalation": null,
+  "why": "Specialty product (fine-art floater): policy_type other always goes to a person. The header names the underwriting brand; the carrier is the company named in 'Underwritten by'.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-008",
+    "carrier": "Clarion Specialty Insurance Co.",
+    "policyholder": "The Whitfield-Marsh Family Trust",
+    "policy_type": "other",
+    "policy_type_detail": "Fine Art Floater",
+    "policy_form": "FA-IM-22",
+    "effective_date": "2025-06-01",
+    "expiration_date": "2026-06-01",
+    "premium_amount": "3275.18",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Scheduled items",
+        "amount": "0",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Total scheduled value",
+        "amount": "1427500",
+        "basis": "scheduled_total",
+        "note": "Agreed Value, All-Risk, Worldwide"
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Newly Acquired Property Coverage",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": "25% / 90 days"
+      },
+      {
+        "name": "Pair & Set Clause",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Breakage Coverage for Fragile Articles",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Transit Coverage - common carrier & private conveyance",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Wear, tear, gradual deterioration, inherent vice",
+      "Damage from restoration, repair, or retouching",
+      "Insects, vermin, mold",
+      "War, nuclear hazard",
+      "Mysterious disappearance of unscheduled items"
+    ],
+    "exclusions_complete": true
+  }
+}

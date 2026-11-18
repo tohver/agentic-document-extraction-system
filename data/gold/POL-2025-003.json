@@ -1,0 +1,94 @@
+{
+  "doc_id": "POL-2025-003",
+  "expected_outcome": "human_review",
+  "expected_escalation": null,
+  "why": "Split limits in thousands; installment amount next to the premium; exclusions list says it is partial.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-003",
+    "carrier": "Liberty Crossroads Insurance Group",
+    "policyholder": "Devon T. Achebe",
+    "policy_type": "auto",
+    "policy_type_detail": null,
+    "policy_form": "PA-100",
+    "effective_date": "2025-09-22",
+    "expiration_date": "2026-09-22",
+    "premium_amount": "1398.07",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Comprehensive",
+        "amount": "1000",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": true
+      },
+      {
+        "applies_to": "Collision",
+        "amount": "1000",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": true
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Bodily Injury Liability",
+        "amount": "50000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Bodily Injury Liability",
+        "amount": "100000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Property Damage Liability",
+        "amount": "50000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Uninsured Motorist",
+        "amount": "50000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Uninsured Motorist",
+        "amount": "100000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Medical Payments",
+        "amount": "2000",
+        "basis": "other",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Loan/Lease Gap Coverage endorsement",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Custom Equipment endorsement",
+        "form_code": null,
+        "limit_amount": "1500",
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Damage caused by intentional act of insured",
+      "Loss arising from use in any prearranged racing event",
+      "Liability for damage to property in care, custody or control of the insured"
+    ],
+    "exclusions_complete": false
+  }
+}

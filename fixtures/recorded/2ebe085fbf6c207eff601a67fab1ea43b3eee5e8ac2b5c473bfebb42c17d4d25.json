@@ -1,0 +1,205 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-015",
+      "carrier": "Cascade Ridge Insurance Company",
+      "policyholder": "Hollis J. Whitaker",
+      "policy_type": "auto",
+      "policy_type_detail": "",
+      "policy_form": "",
+      "effective_date": "2025-06-30",
+      "expiration_date": "2026-06-30",
+      "premium_amount": null,
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "Comprehensive",
+          "amount": "500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Comprehensive ...........  $ 500"
+        },
+        {
+          "applies_to": "Collision",
+          "amount": "500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Collision ...............  $ 500"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Bodily Injury",
+          "amount": "50000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Bodily Injury ...........  $ 50,000 / $ 100,000"
+        },
+        {
+          "coverage": "Bodily Injury",
+          "amount": "100000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "Bodily Injury ...........  $ 50,000 / $ 100,000"
+        },
+        {
+          "coverage": "Property Damage",
+          "amount": "50000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "Property Damage .........  $ 50,000 per accident"
+        },
+        {
+          "coverage": "Uninsured Motorist BI",
+          "amount": "50000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Uninsured Motorist BI ...  $ 50,000 / $ 100,000"
+        },
+        {
+          "coverage": "Uninsured Motorist BI",
+          "amount": "100000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "Uninsured Motorist BI ...  $ 50,000 / $ 100,000"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Roadside Assistance",
+          "form_code": "CR-RA1",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Roadside Assistance (CR-RA1)"
+        }
+      ],
+      "exclusions": [
+        "Racing or speed contests",
+        "Intentional damage by an insured"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "Personal Auto - Renewal Declarations",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "POL-2025-015",
+        "confidence": 0.99
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "CASCADE RIDGE INSURANCE COMPANY",
+        "confidence": 0.97
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Named Insured:   Hollis J. Whitaker",
+        "confidence": 0.99
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Personal Auto - Renewal Declarations",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_form",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Policy Period:   06/30/2025 to 06/30/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Policy Period:   06/30/2025 to 06/30/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_amount",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.93
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "DEDUCTIBLES",
+        "confidence": 0.96
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "COVERAGES AND LIMITS",
+        "confidence": 0.95
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "ENDORSEMENTS",
+        "confidence": 0.96
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.96
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wihETdXZzLSeTSzctt",
+  "usage": {
+    "input_tokens": 359,
+    "output_tokens": 1431,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 8.211062499962281,
+  "batch": false
+}

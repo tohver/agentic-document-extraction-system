@@ -1,0 +1,81 @@
+{
+  "doc_id": "POL-2025-015",
+  "expected_outcome": "escalated",
+  "expected_escalation": "missing_source",
+  "why": "The premium is not stated (deferred to a separate billing statement).",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-015",
+    "carrier": "Cascade Ridge Insurance Company",
+    "policyholder": "Hollis J. Whitaker",
+    "policy_type": "auto",
+    "policy_type_detail": null,
+    "policy_form": null,
+    "effective_date": "2025-06-30",
+    "expiration_date": "2026-06-30",
+    "premium_amount": null,
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Comprehensive",
+        "amount": "500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      },
+      {
+        "applies_to": "Collision",
+        "amount": "500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Bodily Injury",
+        "amount": "50000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Bodily Injury",
+        "amount": "100000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Property Damage",
+        "amount": "50000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Uninsured Motorist BI",
+        "amount": "50000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Uninsured Motorist BI",
+        "amount": "100000",
+        "basis": "per_accident",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Roadside Assistance",
+        "form_code": "CR-RA1",
+        "limit_amount": null,
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Racing or speed contests",
+      "Intentional damage by an insured"
+    ],
+    "exclusions_complete": true
+  }
+}

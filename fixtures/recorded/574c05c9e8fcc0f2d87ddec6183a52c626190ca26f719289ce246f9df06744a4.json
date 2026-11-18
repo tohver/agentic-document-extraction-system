@@ -1,0 +1,220 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-002",
+      "carrier": "Pioneer Mutual Insurance",
+      "policyholder": "Maria Elena Vasquez",
+      "policy_type": "auto",
+      "policy_type_detail": "",
+      "policy_form": "",
+      "effective_date": "2025-05-01",
+      "expiration_date": "2026-05-01",
+      "premium_amount": "2213.40",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "Collision",
+          "amount": "750.00",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Deductible (Coll) .. $ 750.00"
+        },
+        {
+          "applies_to": "Comprehensive",
+          "amount": "250.00",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Deductible (Comp) .. $ 250.00"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Bodily Injury",
+          "amount": "250000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Bodily Injury per person..........  $ 250,000"
+        },
+        {
+          "coverage": "Bodily Injury",
+          "amount": "500000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "Bodily Injury per accident........  $ 500,000"
+        },
+        {
+          "coverage": "Property Damage",
+          "amount": "100000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "Property Damage per accident......  $ 100,000"
+        },
+        {
+          "coverage": "Medical Payments",
+          "amount": "5000",
+          "basis": "other",
+          "note": "",
+          "quote": "Medical Payments..................  $   5,000"
+        },
+        {
+          "coverage": "Towing & Labor",
+          "amount": "75",
+          "basis": "other",
+          "note": "per disablement",
+          "quote": "Towing & Labor          $75 per disablement"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Accident Forgiveness (1st at-fault waiver)",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Accident Forgiveness (1st at-fault waiver)"
+        },
+        {
+          "name": "New Car Replacement - Vehicle #1 only",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "New Car Replacement - Vehicle #1 only"
+        },
+        {
+          "name": "Original Equipment Manufacturer Parts Endorsement",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Original Equipment Manufacturer Parts Endorsement"
+        }
+      ],
+      "exclusions": [
+        "Loss while vehicle is being used to carry persons or property for a fee",
+        "Wear and tear, freezing, mechanical breakdown",
+        "War, insurrection, nuclear hazard"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "AUTO RENEWAL NOTICE",
+        "confidence": 0.9
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy No .......... POL-2025-002",
+        "confidence": 0.98
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "PIONEER MUTUAL INSURANCE",
+        "confidence": 0.95
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Insured ............ Maria Elena Vasquez",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Type ............... Private Passenger Auto",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "policy_form",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Eff. Dates ......... 05/01/2025 - 05/01/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Eff. Dates ......... 05/01/2025 - 05/01/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Premium (annual) ... $ 2,213.40",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.88
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "Endorsements attached to this policy:",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "Exclusions:",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "Exclusions:",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wRHAtPyLZioK7TRJzh",
+  "usage": {
+    "input_tokens": 604,
+    "output_tokens": 1579,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 9.036273600009736,
+  "batch": false
+}

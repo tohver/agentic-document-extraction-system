@@ -1,0 +1,105 @@
+{
+  "role": "reviewer",
+  "request_model": "claude-opus-5-5",
+  "effort": "high",
+  "parsed": {
+    "verdicts": [
+      {
+        "field": "document_kind",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "policy_number",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "carrier",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "policyholder",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "policy_type",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "policy_type_detail",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "policy_form",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "effective_date",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "expiration_date",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "premium_amount",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "premium_components",
+        "verdict": "agree",
+        "reason": "The premium is not itemised; only 'Annual Premium: $ 1,148.75' is stated."
+      },
+      {
+        "field": "deductibles",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "coverage_limits",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "underlying_requirements",
+        "verdict": "agree",
+        "reason": "Not an umbrella policy."
+      },
+      {
+        "field": "endorsements",
+        "verdict": "agree",
+        "reason": "'Towing and Assistance - $500 per occurrence' is read as limit_amount 500 with the qualifier 'per occurrence' in limit_text, which keeps the limit as stated."
+      },
+      {
+        "field": "exclusions",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "exclusions_complete",
+        "verdict": "agree",
+        "reason": "The 'EXCLUSIONS' heading has no statement that the list is partial."
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-opus-5-5",
+  "request_id": "req_011Ch8whqxYmAMmkr4c7GNAW",
+  "usage": {
+    "input_tokens": 1282,
+    "output_tokens": 1262,
+    "cache_read_input_tokens": 3110,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 11.438125199987553,
+  "batch": false
+}

@@ -1,0 +1,65 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "changed_fields": [
+      "deductibles"
+    ],
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "",
+      "carrier": "",
+      "policyholder": "",
+      "policy_type": null,
+      "policy_type_detail": "",
+      "policy_form": "",
+      "effective_date": "",
+      "expiration_date": "",
+      "premium_amount": null,
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "all other perils",
+          "amount": "2500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": true,
+          "quote": "The base all-other-perils deductible is $ 2,500"
+        },
+        {
+          "applies_to": "named storm",
+          "amount": null,
+          "percent": "5",
+          "percent_of": "Coverage A",
+          "labelled_primary": false,
+          "quote": "storm deductible of 5% of the Coverage A limit applies"
+        }
+      ],
+      "coverage_limits": [],
+      "underlying_requirements": [],
+      "endorsements": [],
+      "exclusions": [],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.88
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wWMNnRY7wgZv4DvLQa",
+  "usage": {
+    "input_tokens": 2691,
+    "output_tokens": 626,
+    "cache_read_input_tokens": 6239,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 6.228487599990331,
+  "batch": false
+}

@@ -1,0 +1,95 @@
+{
+  "doc_id": "POL-2025-022",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "Trust as named insured; HO-5; endorsement with a percentage limit.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-022",
+    "carrier": "Amberleigh Premier Homeowners Insurance Co.",
+    "policyholder": "The Castellanos-Reyes Revocable Trust",
+    "policy_type": "home",
+    "policy_type_detail": null,
+    "policy_form": "HO-5",
+    "effective_date": "2025-10-10",
+    "expiration_date": "2026-10-10",
+    "premium_amount": "3412.60",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "All Other Perils",
+        "amount": "2500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": true
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "A Dwelling",
+        "amount": "780000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "B Other Structures",
+        "amount": "78000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "C Personal Property",
+        "amount": "546000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "D Loss of Use",
+        "amount": "156000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "E Personal Liability",
+        "amount": "500000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "F Medical Payments to Others",
+        "amount": "10000",
+        "basis": "per_person",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Scheduled Personal Property (Fine Arts)",
+        "form_code": "HO 04 61",
+        "limit_amount": "40000",
+        "limit_text": null
+      },
+      {
+        "name": "Specified Additional Amount of Insurance",
+        "form_code": "HO 04 20",
+        "limit_amount": null,
+        "limit_text": "25%"
+      },
+      {
+        "name": "Equipment Breakdown",
+        "form_code": "HO 06 34",
+        "limit_amount": null,
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Flood",
+      "Earth movement",
+      "War",
+      "Nuclear hazard",
+      "Governmental action"
+    ],
+    "exclusions_complete": true
+  }
+}

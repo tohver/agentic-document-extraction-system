@@ -1,0 +1,205 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-009",
+      "carrier": "MIDWEST FARMERS & DRIVERS MUTUAL",
+      "policyholder": "Theodore \"Ted\" Kowalczyk",
+      "policy_type": "auto",
+      "policy_type_detail": "",
+      "policy_form": "MFD-AU-04",
+      "effective_date": "2025-10-05",
+      "expiration_date": "2026-10-05",
+      "premium_amount": "1512.88",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "Comprehensive",
+          "amount": "500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Deductible (Comp) .......................   $   500"
+        },
+        {
+          "applies_to": "Collision",
+          "amount": "1000",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Deductible (Collision) ..................   $ 1,000"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Bodily Injury",
+          "amount": "100000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Bodily Injury  ............  100,000 / 300,000"
+        },
+        {
+          "coverage": "Bodily Injury",
+          "amount": "300000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "Bodily Injury  ............  100,000 / 300,000"
+        },
+        {
+          "coverage": "Property Damage",
+          "amount": "50000",
+          "basis": "other",
+          "note": "",
+          "quote": "Property Damage  ..........   50,000"
+        },
+        {
+          "coverage": "PIP / No-Fault",
+          "amount": "20000",
+          "basis": "other",
+          "note": "",
+          "quote": "PIP / No-Fault  ...........   20,000"
+        },
+        {
+          "coverage": "Uninsured Motorist BI",
+          "amount": "100000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Uninsured Motorist BI  ....  100,000 / 300,000"
+        },
+        {
+          "coverage": "Uninsured Motorist BI",
+          "amount": "300000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "Uninsured Motorist BI  ....  100,000 / 300,000"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [],
+      "exclusions": [
+        "Use of any covered auto in a business of selling, servicing, repairing, parking, or storing autos",
+        "Loss due to nuclear reaction or radioactive contamination",
+        "Liability assumed under any contract or agreement"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "Auto Policy Renewal  -  Declarations",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy Number  ........  POL-2025-009",
+        "confidence": 0.99
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "MIDWEST FARMERS & DRIVERS MUTUAL",
+        "confidence": 0.96
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Named Insured  ........  Theodore \"Ted\" Kowalczyk",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Type of Policy  .......  Personal Auto",
+        "confidence": 0.99
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_form",
+        "status": "stated",
+        "quote": "Form MFD-AU-04 (rev 03-23)",
+        "confidence": 0.97
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Effective  ............  10/05/2025",
+        "confidence": 0.98
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Expires  ..............  10/05/2026",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Annual Premium ..........................   $ 1,512.88",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.96
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.93
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "endorsements",
+        "status": "referenced_not_attached",
+        "quote": "Endorsements:   see attached Schedule A",
+        "confidence": 0.96
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "EXCLUSIONS:",
+        "confidence": 0.97
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS:",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wbSbwfhpaqt1ok2XNq",
+  "usage": {
+    "input_tokens": 622,
+    "output_tokens": 1516,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 7.907443500007503,
+  "batch": false
+}

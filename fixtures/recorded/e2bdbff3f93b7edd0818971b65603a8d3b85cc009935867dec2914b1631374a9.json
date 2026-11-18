@@ -1,0 +1,234 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-018",
+      "carrier": "LAKESHORE HOME & PROPERTY INSURANCE CO.",
+      "policyholder": "Beatriz Aldana-Moreau",
+      "policy_type": "home",
+      "policy_type_detail": "",
+      "policy_form": "HO-3",
+      "effective_date": "2025-09-01",
+      "expiration_date": "2026-09-01",
+      "premium_amount": "1625.00",
+      "premium_components": [
+        {
+          "name": "Base Premium",
+          "amount": "1050.00",
+          "quote": "Base Premium ............................  $ 1,050.00"
+        },
+        {
+          "name": "Coverage A Dwelling Charge",
+          "amount": "620.00",
+          "quote": "Coverage A Dwelling Charge ...............  $   620.00"
+        },
+        {
+          "name": "Scheduled Personal Property",
+          "amount": "95.00",
+          "quote": "Scheduled Personal Property .............  $    95.00"
+        },
+        {
+          "name": "Claims-Free Discount",
+          "amount": "-140.00",
+          "quote": "Claims-Free Discount ....................  $  (140.00)"
+        }
+      ],
+      "deductibles": [
+        {
+          "applies_to": "All Other Perils",
+          "amount": "1000",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": true,
+          "quote": "DEDUCTIBLE:  $ 1,000 All Other Perils"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Coverage A - Dwelling",
+          "amount": "295000",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage A - Dwelling ............  $ 295,000"
+        },
+        {
+          "coverage": "Coverage B - Other Structures",
+          "amount": "29500",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage B - Other Structures ....  $  29,500"
+        },
+        {
+          "coverage": "Coverage C - Personal Property",
+          "amount": "147500",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage C - Personal Property ...  $ 147,500"
+        },
+        {
+          "coverage": "Coverage D - Loss of Use",
+          "amount": "59000",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage D - Loss of Use .........  $  59,000"
+        },
+        {
+          "coverage": "Coverage E - Personal Liability",
+          "amount": "300000",
+          "basis": "per_occurrence",
+          "note": "",
+          "quote": "Coverage E - Personal Liability ..  $ 300,000 per occurrence"
+        },
+        {
+          "coverage": "Coverage F - Medical Payments",
+          "amount": "5000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Coverage F - Medical Payments ....  $   5,000 per person"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Scheduled Personal Property - Jewelry",
+          "form_code": "",
+          "limit_amount": "8500",
+          "limit_text": "",
+          "quote": "Scheduled Personal Property - Jewelry ($8,500)"
+        },
+        {
+          "name": "Personal Injury Coverage",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Personal Injury Coverage"
+        }
+      ],
+      "exclusions": [
+        "Flood",
+        "Earth movement",
+        "Mold, except as provided",
+        "Intentional loss"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "HOMEOWNERS RENEWAL DECLARATIONS",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy Number:    POL-2025-018",
+        "confidence": 0.99
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "LAKESHORE HOME & PROPERTY INSURANCE CO.",
+        "confidence": 0.97
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Named Insured:    Beatriz Aldana-Moreau",
+        "confidence": 0.99
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "HOMEOWNERS RENEWAL DECLARATIONS",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_form",
+        "status": "stated",
+        "quote": "Policy Form:      HO-3",
+        "confidence": 0.99
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Policy Period:    09/01/2025 - 09/01/2026",
+        "confidence": 0.98
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Policy Period:    09/01/2025 - 09/01/2026",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "TOTAL ANNUAL PREMIUM ....................  $ 1,625.00",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_components",
+        "status": "stated",
+        "quote": "PREMIUM DETAIL",
+        "confidence": 0.96
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "DEDUCTIBLE:  $ 1,000 All Other Perils",
+        "confidence": 0.93
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "COVERAGE LIMITS",
+        "confidence": 0.95
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "ENDORSEMENTS",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.96
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.96
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wjx9gNWFsSs4xmpGqm",
+  "usage": {
+    "input_tokens": 559,
+    "output_tokens": 1818,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 9.198909700033255,
+  "batch": false
+}

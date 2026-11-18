@@ -1,0 +1,244 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-004",
+      "carrier": "HEARTLAND RESIDENTIAL INSURANCE",
+      "policyholder": "Gregory & Patricia Lindholm",
+      "policy_type": "home",
+      "policy_type_detail": "",
+      "policy_form": "HO-3",
+      "effective_date": "2025-07-01",
+      "expiration_date": "2026-07-01",
+      "premium_amount": "1684.25",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "A - Dwelling",
+          "amount": "1500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": true,
+          "quote": "$ 1,500 AOP"
+        },
+        {
+          "applies_to": "B - Other Structures",
+          "amount": "1500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "B - Other Structures  $  38,500         $ 1,500"
+        },
+        {
+          "applies_to": "C - Personal Property",
+          "amount": "1500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "C - Personal Property $ 192,500         $ 1,500"
+        },
+        {
+          "applies_to": "Wind/Hail",
+          "amount": "7700",
+          "percent": "2",
+          "percent_of": "Coverage A",
+          "labelled_primary": false,
+          "quote": "Wind/Hail Ded.        2% of Cov A       (= $ 7,700)"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "A - Dwelling",
+          "amount": "385000",
+          "basis": "other",
+          "note": "",
+          "quote": "A - Dwelling          $ 385,000"
+        },
+        {
+          "coverage": "B - Other Structures",
+          "amount": "38500",
+          "basis": "other",
+          "note": "",
+          "quote": "B - Other Structures  $  38,500"
+        },
+        {
+          "coverage": "C - Personal Property",
+          "amount": "192500",
+          "basis": "other",
+          "note": "",
+          "quote": "C - Personal Property $ 192,500"
+        },
+        {
+          "coverage": "D - Loss of Use",
+          "amount": "77000",
+          "basis": "other",
+          "note": "",
+          "quote": "D - Loss of Use       $  77,000"
+        },
+        {
+          "coverage": "E - Personal Liab.",
+          "amount": "300000",
+          "basis": "per_occurrence",
+          "note": "",
+          "quote": "E - Personal Liab.    $ 300,000 per occ"
+        },
+        {
+          "coverage": "F - Medical Payments",
+          "amount": "5000",
+          "basis": "other",
+          "note": "",
+          "quote": "F - Medical Payments  $   5,000"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Personal Property Replacement Cost",
+          "form_code": "HO-04-90",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "HO-04-90  Personal Property Replacement Cost"
+        },
+        {
+          "name": "Scheduled Personal Property - Jewelry",
+          "form_code": "HO-04-65",
+          "limit_amount": "12000",
+          "limit_text": "",
+          "quote": "HO-04-65  Scheduled Personal Property - Jewelry $12,000"
+        },
+        {
+          "name": "Service Line Coverage",
+          "form_code": "HO-23-70",
+          "limit_amount": "10000",
+          "limit_text": "",
+          "quote": "HO-23-70  Service Line Coverage  $10,000 limit"
+        }
+      ],
+      "exclusions": [
+        "Earth Movement / Earthquake",
+        "Flood (see separate NFIP policy if required)",
+        "Neglect / Intentional Loss",
+        "Ordinance or Law (limited coverage applies)"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "This declaration replaces all previous declarations",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy #:            POL-2025-004",
+        "confidence": 0.99
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "HEARTLAND RESIDENTIAL INSURANCE",
+        "confidence": 0.97
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Gregory & Patricia Lindholm",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Homeowners Policy - HO-3 Special Form",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "policy_form",
+        "status": "stated",
+        "quote": "HO-3 Special Form",
+        "confidence": 0.95
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Effective:           07/01/2025",
+        "confidence": 0.98
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Expiration:          07/01/2026",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Annual Premium:      $1,684.25",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.85
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.9
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "ENDORSEMENTS:",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "EXCLUSIONS (named):",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS (named):",
+        "confidence": 0.9
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wUTKv3DiKDfojRtaFv",
+  "usage": {
+    "input_tokens": 621,
+    "output_tokens": 1800,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 10.060809599992353,
+  "batch": false
+}

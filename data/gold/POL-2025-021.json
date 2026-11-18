@@ -1,0 +1,82 @@
+{
+  "doc_id": "POL-2025-021",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "Prose layout; an installment amount next to the term premium.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-021",
+    "carrier": "Bayview General Insurance Company",
+    "policyholder": "Priya Raghunathan",
+    "policy_type": "auto",
+    "policy_type_detail": null,
+    "policy_form": null,
+    "effective_date": "2025-04-04",
+    "expiration_date": "2026-04-04",
+    "premium_amount": "1104.90",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Comprehensive",
+        "amount": "250",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      },
+      {
+        "applies_to": "Collision",
+        "amount": "500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Bodily injury",
+        "amount": "100000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Bodily injury",
+        "amount": "300000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Property damage",
+        "amount": "100000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Medical payments",
+        "amount": "5000",
+        "basis": "per_person",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Accident Forgiveness",
+        "form_code": "BG-AF3",
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Pet Injury Coverage",
+        "form_code": "BG-PI1",
+        "limit_amount": "1000",
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "racing or speed contests",
+      "damage caused intentionally by an insured",
+      "use of the vehicle for paid delivery"
+    ],
+    "exclusions_complete": true
+  }
+}

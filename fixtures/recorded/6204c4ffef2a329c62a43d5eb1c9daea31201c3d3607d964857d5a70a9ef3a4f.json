@@ -1,0 +1,220 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-003",
+      "carrier": "Liberty Crossroads Insurance Group",
+      "policyholder": "Devon T. Achebe",
+      "policy_type": "auto",
+      "policy_type_detail": "",
+      "policy_form": "",
+      "effective_date": "2025-09-22",
+      "expiration_date": "2026-09-22",
+      "premium_amount": "1398.07",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "Comprehensive",
+          "amount": "1000",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": true,
+          "quote": "Standard deductible applies at  $1,000 for both Comprehensive and"
+        },
+        {
+          "applies_to": "Collision",
+          "amount": "1000",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": true,
+          "quote": "Standard deductible applies at  $1,000 for both Comprehensive and"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Bodily Injury Liability",
+          "amount": "50000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Bodily Injury Liability ....... 50/100 (in thousands)"
+        },
+        {
+          "coverage": "Bodily Injury Liability",
+          "amount": "100000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "Bodily Injury Liability ....... 50/100 (in thousands)"
+        },
+        {
+          "coverage": "Property Damage Liability",
+          "amount": "50000",
+          "basis": "other",
+          "note": "",
+          "quote": "Property Damage Liability ..... 50,000"
+        },
+        {
+          "coverage": "Uninsured Motorist",
+          "amount": "50000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Uninsured Motorist ............ 50/100"
+        },
+        {
+          "coverage": "Uninsured Motorist",
+          "amount": "100000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "Uninsured Motorist ............ 50/100"
+        },
+        {
+          "coverage": "Medical Payments",
+          "amount": "2000",
+          "basis": "other",
+          "note": "",
+          "quote": "Medical Payments .............. 2,000"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Loan/Lease Gap Coverage endorsement",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Loan/Lease Gap Coverage endorsement"
+        },
+        {
+          "name": "Custom Equipment endorsement",
+          "form_code": "",
+          "limit_amount": "1500",
+          "limit_text": "",
+          "quote": "Custom Equipment endorsement - limit $1,500"
+        }
+      ],
+      "exclusions": [
+        "Damage caused by intentional act of insured",
+        "Loss arising from use in any prearranged racing event",
+        "Liability for damage to property in care, custody or control of the insured"
+      ],
+      "exclusions_complete": false
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "RENEWAL  DECLARATIONS  PAGE",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy number:   POL-2025-003",
+        "confidence": 0.99
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "Liberty Crossroads Insurance Group",
+        "confidence": 0.88
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Policy holder:   Devon T. Achebe",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Policy class:    Auto (Personal Lines)",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "policy_form",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.9
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "from  09/22/2025   through   09/22/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "from  09/22/2025   through   09/22/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "The total premium for the renewal term is  $1,398.07",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "Standard deductible applies at  $1,000 for both Comprehensive and",
+        "confidence": 0.93
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "Coverage  schedule:",
+        "confidence": 0.88
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "Endorsements in effect:",
+        "confidence": 0.93
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "Exclusions (partial list, see policy form PA-100 for complete):",
+        "confidence": 0.93
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "Exclusions (partial list, see policy form PA-100 for complete):",
+        "confidence": 0.97
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wSUqeXWuouxn8dKnTX",
+  "usage": {
+    "input_tokens": 547,
+    "output_tokens": 1630,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 9.428225099982228,
+  "batch": false
+}

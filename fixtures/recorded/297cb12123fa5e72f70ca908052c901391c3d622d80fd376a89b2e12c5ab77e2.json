@@ -1,0 +1,221 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-012",
+      "carrier": "Prairie Hearth Mutual Insurance",
+      "policyholder": "Tomasz and Alicja Wierzbicki",
+      "policy_type": "home",
+      "policy_type_detail": "",
+      "policy_form": "HO-3",
+      "effective_date": "2025-03-01",
+      "expiration_date": "2026-03-01",
+      "premium_amount": "1932.00",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "all other perils",
+          "amount": "1000",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": true,
+          "quote": "an all other perils (AOP) deductible of $1,000 applies"
+        },
+        {
+          "applies_to": "windstorm or hail",
+          "amount": "4100",
+          "percent": "1",
+          "percent_of": "Coverage A",
+          "labelled_primary": false,
+          "quote": "windstorm or hail deductible of 1% of Coverage A ($4,100)"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Coverage A - Dwelling",
+          "amount": "410000",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage A - Dwelling              $ 410,000"
+        },
+        {
+          "coverage": "Coverage B - Other Structures",
+          "amount": "41000",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage B - Other Structures      $  41,000"
+        },
+        {
+          "coverage": "Coverage C - Personal Property",
+          "amount": "205000",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage C - Personal Property     $ 205,000"
+        },
+        {
+          "coverage": "Coverage D - Loss of Use",
+          "amount": "82000",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage D - Loss of Use           $  82,000"
+        },
+        {
+          "coverage": "Coverage E - Personal Liability",
+          "amount": "300000",
+          "basis": "per_occurrence",
+          "note": "",
+          "quote": "Coverage E - Personal Liability    $ 300,000 each occurrence"
+        },
+        {
+          "coverage": "Coverage F - Medical Payments",
+          "amount": "2000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Coverage F - Medical Payments      $   2,000 each person"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Personal Property Replacement Cost",
+          "form_code": "HO 04 90",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "HO 04 90  Personal Property Replacement Cost"
+        },
+        {
+          "name": "Water Back-Up and Sump Discharge",
+          "form_code": "HO 04 95",
+          "limit_amount": "5000",
+          "limit_text": "",
+          "quote": "HO 04 95  Water Back-Up and Sump Discharge - $5,000"
+        }
+      ],
+      "exclusions": [
+        "Flood",
+        "Earth movement",
+        "Neglect",
+        "Intentional loss"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "Your homeowners policy POL-2025-012 has been renewed",
+        "confidence": 0.9
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "POL-2025-012",
+        "confidence": 0.98
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "Prairie Hearth Mutual Insurance",
+        "confidence": 0.97
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "The named insured on this policy is Tomasz and Alicja Wierzbicki.",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Your homeowners policy",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "policy_form",
+        "status": "stated",
+        "quote": "on our HO-3 Special Form",
+        "confidence": 0.96
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "March 1, 2025 through March 1, 2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "March 1, 2025 through March 1, 2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Your renewal premium is $1,932.00 for the year.",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "Deductibles: an all other perils (AOP) deductible of $1,000 applies",
+        "confidence": 0.9
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "Your coverage limits are:",
+        "confidence": 0.93
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "Endorsements included with this renewal:",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "Exclusions:",
+        "confidence": 0.96
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "Exclusions:",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wf7GDtREdpYvqBJjj1",
+  "usage": {
+    "input_tokens": 501,
+    "output_tokens": 1640,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 9.193193299986888,
+  "batch": false
+}

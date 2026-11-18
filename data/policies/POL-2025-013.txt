@@ -1,0 +1,29 @@
+=====================================================================
+ BLUE HERON INDEMNITY COMPANY             PERSONAL UMBRELLA RENEWAL
+=====================================================================
+ Policy Number        POL-2025-013
+ Insured              Marcus & Delphine Okafor
+ Coverage Period      12/01/2025 - 12/01/2026
+ Form                 PUP-200
+
+ PREMIUM                                   $   845.00
+ RETAINED LIMIT (SIR)                      $ 1,000
+
+ LIMIT OF LIABILITY
+   Each occurrence                         $ 3,000,000
+   Annual aggregate                        $ 3,000,000
+
+ REQUIRED UNDERLYING INSURANCE
+   Automobile liability     300/500/100
+   Homeowners liability     $500,000 each occurrence
+
+ ENDORSEMENTS
+   PUP-14  Uninsured / Underinsured Motorist Excess   $1,000,000
+   PUP-22  Rented Watercraft Liability
+
+ EXCLUSIONS
+   - Professional services and business pursuits
+   - Owned or chartered aircraft
+   - Communicable disease transmission
+   - Expected or intended injury
+=====================================================================

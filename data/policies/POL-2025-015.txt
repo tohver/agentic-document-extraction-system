@@ -1,0 +1,27 @@
+CASCADE RIDGE INSURANCE COMPANY
+   Personal Auto - Renewal Declarations
+   ------------------------------------------
+
+   Policy Number:   POL-2025-015
+   Named Insured:   Hollis J. Whitaker
+   Policy Period:   06/30/2025 to 06/30/2026
+
+   PREMIUM
+      Your renewal premium will be shown on the billing statement
+      that follows under separate cover.
+
+   COVERAGES AND LIMITS
+      Bodily Injury ...........  $ 50,000 / $ 100,000
+      Property Damage .........  $ 50,000 per accident
+      Uninsured Motorist BI ...  $ 50,000 / $ 100,000
+
+   DEDUCTIBLES
+      Comprehensive ...........  $ 500
+      Collision ...............  $ 500
+
+   ENDORSEMENTS
+      - Roadside Assistance (CR-RA1)
+
+   EXCLUSIONS
+      - Racing or speed contests
+      - Intentional damage by an insured

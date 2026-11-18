@@ -1,0 +1,87 @@
+{
+  "doc_id": "POL-2025-007",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "Policy number printed with spaces; retained limit / SIR.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-007",
+    "carrier": "Northgate Specialty Lines",
+    "policyholder": "Rebecca Onyemaechi",
+    "policy_type": "umbrella",
+    "policy_type_detail": null,
+    "policy_form": null,
+    "effective_date": "2025-08-03",
+    "expiration_date": "2026-08-03",
+    "premium_amount": "1094.00",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Self-insured retention",
+        "amount": "500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Per-occurrence limit",
+        "amount": "5000000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "Aggregate limit",
+        "amount": "5000000",
+        "basis": "aggregate",
+        "note": null
+      }
+    ],
+    "underlying_requirements": [
+      {
+        "coverage": "Personal Auto",
+        "limits_text": "500/500/250"
+      },
+      {
+        "coverage": "Homeowners GL",
+        "limits_text": "500,000 per occurrence"
+      },
+      {
+        "coverage": "Recreational Vehicle Liability",
+        "limits_text": "300,000"
+      },
+      {
+        "coverage": "Employers Liability (domestic staff)",
+        "limits_text": "500,000"
+      }
+    ],
+    "endorsements": [
+      {
+        "name": "UND-Motorist / Underinsured Motorist excess",
+        "form_code": null,
+        "limit_amount": "1000000",
+        "limit_text": null
+      },
+      {
+        "name": "Defense outside the limits endorsement",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Reputational Injury & Cyber-Bullying Liability",
+        "form_code": null,
+        "limit_amount": "250000",
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Punitive damages where uninsurable by law",
+      "Liability arising out of any owned aircraft",
+      "Liability assumed under a contract or agreement other than an \"insured contract\"",
+      "Workers compensation obligations"
+    ],
+    "exclusions_complete": true
+  }
+}

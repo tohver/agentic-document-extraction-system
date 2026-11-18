@@ -1,0 +1,82 @@
+{
+  "doc_id": "POL-2025-011",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "OCR character noise in words (0 for O, 1 and l for l and I); numbers are clean.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-011",
+    "carrier": "Granite State Auto Insurance Company",
+    "policyholder": "Ingrid M. Solberg",
+    "policy_type": "auto",
+    "policy_type_detail": null,
+    "policy_form": null,
+    "effective_date": "2025-01-20",
+    "expiration_date": "2026-01-20",
+    "premium_amount": "1276.40",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Comprehensive",
+        "amount": "250",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      },
+      {
+        "applies_to": "Collision",
+        "amount": "500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Bodily Injury",
+        "amount": "100000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Bodily Injury",
+        "amount": "300000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Property Damage",
+        "amount": "100000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Medical Payments",
+        "amount": "5000",
+        "basis": "per_person",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Rideshare Gap Endorsement",
+        "form_code": "GS-RS1",
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Rental Reimbursement",
+        "form_code": "GS-RR2",
+        "limit_amount": null,
+        "limit_text": "$30/day, $900 max"
+      }
+    ],
+    "exclusions": [
+      "Racing, speed or demolition contests",
+      "Vehicles used to deliver goods for compensation",
+      "Damage due to wear and tear or mechanical breakdown"
+    ],
+    "exclusions_complete": true
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "changed_fields": [
+      "coverage_limits"
+    ],
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "",
+      "carrier": "",
+      "policyholder": "",
+      "policy_type": null,
+      "policy_type_detail": "",
+      "policy_form": "",
+      "effective_date": "",
+      "expiration_date": "",
+      "premium_amount": null,
+      "premium_components": [],
+      "deductibles": [],
+      "coverage_limits": [
+        {
+          "coverage": "Bodily Injury Liability",
+          "amount": "50000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Bodily Injury Liability ....... 50/100 (in thousands)"
+        },
+        {
+          "coverage": "Bodily Injury Liability",
+          "amount": "100000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "Bodily Injury Liability ....... 50/100 (in thousands)"
+        },
+        {
+          "coverage": "Property Damage Liability",
+          "amount": "50000",
+          "basis": "other",
+          "note": "",
+          "quote": "Property Damage Liability ..... 50,000"
+        },
+        {
+          "coverage": "Uninsured Motorist",
+          "amount": "50000",
+          "basis": "per_person",
+          "note": "unit 'in thousands' stated on the Bodily Injury line of the same schedule",
+          "quote": "50/100 (in thousands)\n  Property Damage Liability ..... 50,000\n  Uninsured Motorist ............ 50/100"
+        },
+        {
+          "coverage": "Uninsured Motorist",
+          "amount": "100000",
+          "basis": "per_accident",
+          "note": "unit 'in thousands' stated on the Bodily Injury line of the same schedule",
+          "quote": "50/100 (in thousands)\n  Property Damage Liability ..... 50,000\n  Uninsured Motorist ............ 50/100"
+        },
+        {
+          "coverage": "Medical Payments",
+          "amount": "2000",
+          "basis": "other",
+          "note": "",
+          "quote": "Medical Payments .............. 2,000"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [],
+      "exclusions": [],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "Coverage  schedule:",
+        "confidence": 0.85
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wTBC2y5Jmab4CLfYGq",
+  "usage": {
+    "input_tokens": 2539,
+    "output_tokens": 1118,
+    "cache_read_input_tokens": 6239,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 8.197580500040203,
+  "batch": false
+}

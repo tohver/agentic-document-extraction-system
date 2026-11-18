@@ -1,0 +1,17 @@
+{"doc_id": "POL-2025-001", "policy_type": "auto", "outcome": "auto_approve", "reasons": [], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-002", "policy_type": "auto", "outcome": "human_review", "reasons": ["low_confidence:coverage_limits"], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-003", "policy_type": "auto", "outcome": "human_review", "reasons": ["low_confidence:carrier", "low_confidence:coverage_limits", "reviewer_disagreement:policy_form", "exclusions_partial"], "reviewer_reasons": {"policy_form": "The document names a policy form code: 'see policy form PA-100 for complete'. policy_form should be \"PA-100\"."}}
+{"doc_id": "POL-2025-004", "policy_type": "home", "outcome": "human_review", "reasons": ["low_confidence:deductibles"], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-005", "policy_type": "home", "outcome": "human_review", "reasons": ["low_confidence:deductibles", "low_confidence:exclusions_complete"], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-006", "policy_type": "umbrella", "outcome": "human_review", "reasons": ["low_confidence:carrier"], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-007", "policy_type": "umbrella", "outcome": "human_review", "reasons": ["low_confidence:carrier", "low_confidence:effective_date", "low_confidence:expiration_date", "low_confidence:endorsements"], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-008", "policy_type": "other", "outcome": "human_review", "reasons": ["low_confidence:coverage_limits", "policy_type_other"], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-010", "policy_type": "home", "outcome": "human_review", "reasons": ["reviewer_not_verifiable:premium_components", "document_discrepancy_consistency:components_sum_mismatch:premium_amount"], "reviewer_reasons": {"premium_components": "The printed line items (800.00 + 1,100.00 + 350.00 + 200.00 - 100.00) sum to 2,350.00, but the document states 'TOTAL ANNUAL PREMIUM ... $ 2,400.00'. The extraction copies the lines as printed, but the document is internally inconsistent. It cannot be confirmed that these lines add up to the stated premium."}}
+{"doc_id": "POL-2025-011", "policy_type": "auto", "outcome": "spot_check", "reasons": ["spot_check_sample"], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-012", "policy_type": "home", "outcome": "auto_approve", "reasons": [], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-013", "policy_type": "umbrella", "outcome": "spot_check", "reasons": ["spot_check_sample"], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-014", "policy_type": "other", "outcome": "human_review", "reasons": ["policy_type_other"], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-018", "policy_type": "home", "outcome": "auto_approve", "reasons": [], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-019", "policy_type": "auto", "outcome": "human_review", "reasons": ["low_confidence:expiration_date", "document_discrepancy_consistency:term_not_positive:expiration_date"], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-021", "policy_type": "auto", "outcome": "auto_approve", "reasons": [], "reviewer_reasons": {}}
+{"doc_id": "POL-2025-022", "policy_type": "home", "outcome": "spot_check", "reasons": ["spot_check_sample"], "reviewer_reasons": {}}

@@ -1,0 +1,94 @@
+{
+  "doc_id": "POL-2025-002",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "Separate comprehensive and collision deductibles, none labelled primary: primary deductible is ambiguous by design.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-002",
+    "carrier": "Pioneer Mutual Insurance",
+    "policyholder": "Maria Elena Vasquez",
+    "policy_type": "auto",
+    "policy_type_detail": null,
+    "policy_form": null,
+    "effective_date": "2025-05-01",
+    "expiration_date": "2026-05-01",
+    "premium_amount": "2213.40",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Collision",
+        "amount": "750",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      },
+      {
+        "applies_to": "Comprehensive",
+        "amount": "250",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Bodily Injury",
+        "amount": "250000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Bodily Injury",
+        "amount": "500000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Property Damage",
+        "amount": "100000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Medical Payments",
+        "amount": "5000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Towing & Labor",
+        "amount": "75",
+        "basis": "other",
+        "note": "per disablement"
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Accident Forgiveness (1st at-fault waiver)",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "New Car Replacement - Vehicle #1 only",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Original Equipment Manufacturer Parts Endorsement",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Loss while vehicle is being used to carry persons or property for a fee",
+      "Wear and tear, freezing, mechanical breakdown",
+      "War, insurrection, nuclear hazard"
+    ],
+    "exclusions_complete": true
+  }
+}

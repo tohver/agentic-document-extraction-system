@@ -1,0 +1,235 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-005",
+      "carrier": "Coastline Property & Casualty Insurance Company",
+      "policyholder": "Aaliyah Brennan-Cole",
+      "policy_type": "home",
+      "policy_type_detail": "",
+      "policy_form": "HO-5",
+      "effective_date": "2025-11-14",
+      "expiration_date": "2026-11-14",
+      "premium_amount": "2847.91",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "all other perils",
+          "amount": "2500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": true,
+          "quote": "The base all-other-perils deductible is $ 2,500"
+        },
+        {
+          "applies_to": "named storm",
+          "amount": null,
+          "percent": "5",
+          "percent_of": "Coverage A",
+          "labelled_primary": false,
+          "quote": "named-storm deductible of 5% of the Coverage A limit applies"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Coverage A (Dwelling)",
+          "amount": "612000",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage A (Dwelling) ............  $ 612,000"
+        },
+        {
+          "coverage": "Coverage B (Other Structures)",
+          "amount": "61200",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage B (Other Structures) ....  $  61,200"
+        },
+        {
+          "coverage": "Coverage C (Contents)",
+          "amount": "459000",
+          "basis": "other",
+          "note": "replacement cost",
+          "quote": "Coverage C (Contents) ............  $ 459,000  (replacement cost)"
+        },
+        {
+          "coverage": "Coverage D (ALE)",
+          "amount": "183600",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage D (ALE) .................  $ 183,600"
+        },
+        {
+          "coverage": "Coverage E (Liability)",
+          "amount": "500000",
+          "basis": "per_occurrence",
+          "note": "",
+          "quote": "Coverage E (Liability) ...........  $ 500,000 per occurrence"
+        },
+        {
+          "coverage": "Coverage F (Med Pay)",
+          "amount": "5000",
+          "basis": "other",
+          "note": "",
+          "quote": "Coverage F (Med Pay) .............  $   5,000"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Water Backup & Sump Overflow",
+          "form_code": "",
+          "limit_amount": "25000",
+          "limit_text": "",
+          "quote": "Water Backup & Sump Overflow ($25,000 sublimit)"
+        },
+        {
+          "name": "Identity Theft Restoration Services",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Identity Theft Restoration Services"
+        },
+        {
+          "name": "Equipment Breakdown Coverage",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Equipment Breakdown Coverage"
+        },
+        {
+          "name": "Ordinance or Law",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "25% of Cov A",
+          "quote": "Ordinance or Law - 25% of Cov A"
+        }
+      ],
+      "exclusions": [
+        "Flood damage from rising surface water",
+        "Mold, fungus, or wet rot beyond $10,000 sublimit",
+        "Damage from insects, rodents, vermin",
+        "Earth movement (sinkhole separately available)"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "*** RENEWAL OFFER ***",
+        "confidence": 0.95
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy Number ........... POL-2025-005",
+        "confidence": 0.98
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "Coastline Property & Casualty Insurance Company",
+        "confidence": 0.97
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Policyholder ............ Aaliyah Brennan-Cole",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "renewal of your homeowners policy",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "policy_form",
+        "status": "stated",
+        "quote": "Coverage Form ........... HO-5 Comprehensive",
+        "confidence": 0.95
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Term .................... 11/14/2025 to 11/14/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Term .................... 11/14/2025 to 11/14/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Premium for the upcoming term is $ 2,847.91",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.88
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.92
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "Endorsements applied:",
+        "confidence": 0.92
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "Exclusions of note:",
+        "confidence": 0.93
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "Exclusions of note:",
+        "confidence": 0.85
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wVekGqUbHLRmmXMbnR",
+  "usage": {
+    "input_tokens": 631,
+    "output_tokens": 1774,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 9.451409800036345,
+  "batch": false
+}
