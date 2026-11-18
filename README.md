@@ -107,17 +107,5 @@ the recordings and fails on a missing one instead of calling the network.
   calibration table should inform.
 
 
-## Repository layout
-
-```text
-src/policy_extractor/   pipeline code
-tests/                  offline tests, plus two live smoke tests (-m live)
-data/policies/          22 policy documents (10 seed documents, 12 added for layouts and traps)
-data/gold/              hand-written expected values and outcome per document
-data/README.md          the traps and the gold-label decisions
-fixtures/recorded/      recorded model responses for offline replay
-runs/examples/          outputs and evaluation report of the run described above
-legacy/                 the earlier prototype, kept for reference only
-```
 
 Python 3.14, uv, the official `anthropic` SDK, Pydantic, Typer, pytest, mypy (strict), ruff.
