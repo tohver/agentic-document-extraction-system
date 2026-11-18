@@ -1,0 +1,70 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "changed_fields": [
+      "endorsements"
+    ],
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "",
+      "carrier": "",
+      "policyholder": "",
+      "policy_type": null,
+      "policy_type_detail": "",
+      "policy_form": "",
+      "effective_date": "",
+      "expiration_date": "",
+      "premium_amount": null,
+      "premium_components": [],
+      "deductibles": [],
+      "coverage_limits": [],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "UND-Motorist / Underinsured Motorist excess",
+          "form_code": "",
+          "limit_amount": "1000000",
+          "limit_text": "",
+          "quote": "UND-Motorist / Underinsured Motorist excess - $1,000,000"
+        },
+        {
+          "name": "Defense outside the limits endorsement",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Defense outside the limits endorsement"
+        },
+        {
+          "name": "Reputational Injury & Cyber-Bullying Liability sublimit",
+          "form_code": "",
+          "limit_amount": "250000",
+          "limit_text": "",
+          "quote": "Reputational Injury & Cyber-Bullying Liability sublimit $250,000"
+        }
+      ],
+      "exclusions": [],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.88
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wZSpnWfLS4DMNSJYK5",
+  "usage": {
+    "input_tokens": 2417,
+    "output_tokens": 430,
+    "cache_read_input_tokens": 6239,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 3.825486899993848,
+  "batch": false
+}

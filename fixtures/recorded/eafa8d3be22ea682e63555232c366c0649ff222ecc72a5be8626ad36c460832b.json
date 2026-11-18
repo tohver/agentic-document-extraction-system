@@ -1,0 +1,207 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-014",
+      "carrier": "Seaward Marine Underwriters, Inc.",
+      "policyholder": "Rosalind T. Ferreira",
+      "policy_type": "other",
+      "policy_type_detail": "Boatowners Package (Watercraft)",
+      "policy_form": "SMU-BP-19",
+      "effective_date": "2025-05-15",
+      "expiration_date": "2026-05-15",
+      "premium_amount": "1148.75",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "Hull and Machinery",
+          "amount": "1920",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Hull and Machinery ....................... $ 1,920"
+        },
+        {
+          "applies_to": "Liability",
+          "amount": "0",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Liability ................................ NIL"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Hull and Machinery",
+          "amount": "96000",
+          "basis": "other",
+          "note": "Agreed Value",
+          "quote": "Hull and Machinery (Agreed Value) ........ $ 96,000"
+        },
+        {
+          "coverage": "Watercraft Liability",
+          "amount": "500000",
+          "basis": "per_occurrence",
+          "note": "",
+          "quote": "Watercraft Liability ..................... $ 500,000 each occurrence"
+        },
+        {
+          "coverage": "Medical Payments",
+          "amount": "10000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Medical Payments ......................... $ 10,000 each person"
+        },
+        {
+          "coverage": "Uninsured Boater",
+          "amount": "100000",
+          "basis": "per_occurrence",
+          "note": "",
+          "quote": "Uninsured Boater ......................... $ 100,000 each occurrence"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Towing and Assistance",
+          "form_code": "",
+          "limit_amount": "500",
+          "limit_text": "per occurrence",
+          "quote": "Towing and Assistance - $500 per occurrence"
+        },
+        {
+          "name": "Fishing Equipment",
+          "form_code": "",
+          "limit_amount": "2500",
+          "limit_text": "",
+          "quote": "Fishing Equipment - $2,500"
+        }
+      ],
+      "exclusions": [
+        "Use in any race or speed test",
+        "Commercial charter or rental to others",
+        "Wear and tear, marine borers, gradual deterioration",
+        "Operation by any person under the influence"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "Boatowners Package Policy - Renewal Declarations",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy Number:    POL-2025-014",
+        "confidence": 0.98
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "SEAWARD MARINE UNDERWRITERS, INC.",
+        "confidence": 0.96
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Named Insured:    Rosalind T. Ferreira",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Product:          Boatowners Package (Watercraft)",
+        "confidence": 0.93
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "stated",
+        "quote": "Boatowners Package (Watercraft)",
+        "confidence": 0.9
+      },
+      {
+        "field": "policy_form",
+        "status": "stated",
+        "quote": "Policy Form:      SMU-BP-19",
+        "confidence": 0.98
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Term:             05/15/2025 to 05/15/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Term:             05/15/2025 to 05/15/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Annual Premium:   $ 1,148.75",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.93
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.92
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.94
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.96
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8whGXt3ifyp2cx8E7tJ",
+  "usage": {
+    "input_tokens": 481,
+    "output_tokens": 1502,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 7.764155799988657,
+  "batch": false
+}

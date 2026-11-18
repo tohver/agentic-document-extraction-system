@@ -1,0 +1,105 @@
+{
+  "doc_id": "POL-2025-018",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "Itemised premium whose components add up (1,625.00).",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-018",
+    "carrier": "Lakeshore Home & Property Insurance Co.",
+    "policyholder": "Beatriz Aldana-Moreau",
+    "policy_type": "home",
+    "policy_type_detail": null,
+    "policy_form": "HO-3",
+    "effective_date": "2025-09-01",
+    "expiration_date": "2026-09-01",
+    "premium_amount": "1625.00",
+    "premium_components": [
+      {
+        "name": "Base Premium",
+        "amount": "1050.00"
+      },
+      {
+        "name": "Coverage A Dwelling Charge",
+        "amount": "620.00"
+      },
+      {
+        "name": "Scheduled Personal Property",
+        "amount": "95.00"
+      },
+      {
+        "name": "Claims-Free Discount",
+        "amount": "-140.00"
+      }
+    ],
+    "deductibles": [
+      {
+        "applies_to": "All Other Perils",
+        "amount": "1000",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": true
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Coverage A - Dwelling",
+        "amount": "295000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage B - Other Structures",
+        "amount": "29500",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage C - Personal Property",
+        "amount": "147500",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage D - Loss of Use",
+        "amount": "59000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage E - Personal Liability",
+        "amount": "300000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "Coverage F - Medical Payments",
+        "amount": "5000",
+        "basis": "per_person",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Scheduled Personal Property - Jewelry",
+        "form_code": null,
+        "limit_amount": "8500",
+        "limit_text": null
+      },
+      {
+        "name": "Personal Injury Coverage",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Flood",
+      "Earth movement",
+      "Mold, except as provided",
+      "Intentional loss"
+    ],
+    "exclusions_complete": true
+  }
+}

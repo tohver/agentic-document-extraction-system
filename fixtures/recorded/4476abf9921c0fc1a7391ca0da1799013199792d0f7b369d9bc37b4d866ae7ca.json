@@ -1,0 +1,48 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "changed_fields": [
+      "document_kind"
+    ],
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "",
+      "carrier": "",
+      "policyholder": "",
+      "policy_type": null,
+      "policy_type_detail": "",
+      "policy_form": "",
+      "effective_date": "",
+      "expiration_date": "",
+      "premium_amount": null,
+      "premium_components": [],
+      "deductibles": [],
+      "coverage_limits": [],
+      "underlying_requirements": [],
+      "endorsements": [],
+      "exclusions": [],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "Pers0nal Auto Po1icy -- Renewa1 Dec1arations",
+        "confidence": 0.96
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8weSwsLyC15LQzDqNDh",
+  "usage": {
+    "input_tokens": 2174,
+    "output_tokens": 232,
+    "cache_read_input_tokens": 6239,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 3.1451861000387,
+  "batch": false
+}

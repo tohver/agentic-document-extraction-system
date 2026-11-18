@@ -1,0 +1,81 @@
+{
+  "doc_id": "POL-2025-009",
+  "expected_outcome": "escalated",
+  "expected_escalation": "missing_source",
+  "why": "Endorsements referenced to Schedule A, which is not enclosed.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-009",
+    "carrier": "Midwest Farmers & Drivers Mutual",
+    "policyholder": "Theodore \"Ted\" Kowalczyk",
+    "policy_type": "auto",
+    "policy_type_detail": null,
+    "policy_form": "MFD-AU-04",
+    "effective_date": "2025-10-05",
+    "expiration_date": "2026-10-05",
+    "premium_amount": "1512.88",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Comprehensive",
+        "amount": "500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      },
+      {
+        "applies_to": "Collision",
+        "amount": "1000",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Bodily Injury",
+        "amount": "100000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Bodily Injury",
+        "amount": "300000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Property Damage",
+        "amount": "50000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "PIP / No-Fault",
+        "amount": "20000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Uninsured Motorist BI",
+        "amount": "100000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Uninsured Motorist BI",
+        "amount": "300000",
+        "basis": "per_accident",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": null,
+    "exclusions": [
+      "Use of any covered auto in a business of selling, servicing, repairing, parking, or storing autos",
+      "Loss due to nuclear reaction or radioactive contamination",
+      "Liability assumed under any contract or agreement"
+    ],
+    "exclusions_complete": true
+  }
+}

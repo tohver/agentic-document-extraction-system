@@ -1,0 +1,59 @@
+{
+  "doc_id": "POL-2025-020",
+  "expected_outcome": "escalated",
+  "expected_escalation": "missing_source",
+  "why": "Endorsements referenced to a schedule page that is not included.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-020",
+    "carrier": "Summit Excess & Umbrella Insurance Company",
+    "policyholder": "Odessa Lindqvist-Haddad",
+    "policy_type": "umbrella",
+    "policy_type_detail": null,
+    "policy_form": "UMB-PL-0922",
+    "effective_date": "2025-02-14",
+    "expiration_date": "2026-02-14",
+    "premium_amount": "498.00",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Self-insured retention",
+        "amount": "250",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Each Occurrence Limit",
+        "amount": "1000000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "Aggregate Limit",
+        "amount": "1000000",
+        "basis": "aggregate",
+        "note": null
+      }
+    ],
+    "underlying_requirements": [
+      {
+        "coverage": "Auto Liability",
+        "limits_text": "250/500/100 BI/PD"
+      },
+      {
+        "coverage": "Homeowners Liability",
+        "limits_text": "$300,000 per occurrence"
+      }
+    ],
+    "endorsements": null,
+    "exclusions": [
+      "Business pursuits and professional services",
+      "Liability arising from aircraft ownership or operation",
+      "Intentional or criminal acts"
+    ],
+    "exclusions_complete": true
+  }
+}

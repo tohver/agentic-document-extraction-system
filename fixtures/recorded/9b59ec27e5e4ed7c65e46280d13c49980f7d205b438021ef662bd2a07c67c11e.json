@@ -1,0 +1,206 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-011",
+      "carrier": "GRANITE STATE AUTO INSURANCE COMPANY",
+      "policyholder": "Ingrid M. Solberg",
+      "policy_type": "auto",
+      "policy_type_detail": "",
+      "policy_form": "",
+      "effective_date": "2025-01-20",
+      "expiration_date": "2026-01-20",
+      "premium_amount": "1276.40",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "Comprehensive",
+          "amount": "250",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Comprehensive ......  $250"
+        },
+        {
+          "applies_to": "Collision",
+          "amount": "500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Co11ision ..........  $500"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Bodily Injury",
+          "amount": "100000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "$100,000 each person / $300,000 each accident"
+        },
+        {
+          "coverage": "Bodily Injury",
+          "amount": "300000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "$100,000 each person / $300,000 each accident"
+        },
+        {
+          "coverage": "Property Damage",
+          "amount": "100000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "Property Damage ....  $100,000 each accident"
+        },
+        {
+          "coverage": "Medical Payments",
+          "amount": "5000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Medica1 Payments ...  $5,000 each person"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Rideshare Gap Endorsement",
+          "form_code": "GS-RS1",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Rideshare Gap Endorsement (GS-RS1)"
+        },
+        {
+          "name": "Rental Reimbursement",
+          "form_code": "GS-RR2",
+          "limit_amount": null,
+          "limit_text": "$30/day, $900 max",
+          "quote": "Rental Reimbursement $30/day, $900 max (GS-RR2)"
+        }
+      ],
+      "exclusions": [
+        "Racing, speed or demolition contests",
+        "Vehicles used to deliver goods for compensation",
+        "Damage due to wear and tear or mechanical breakdown"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "Personal Auto Policy -- Renewal Declarations",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "POL-2025-011",
+        "confidence": 0.98
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "GRANITE STATE AUTO INSURANCE COMPANY",
+        "confidence": 0.97
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Ingrid M. Solberg",
+        "confidence": 0.96
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Pers0nal Auto Po1icy",
+        "confidence": 0.96
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "policy_form",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.93
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "01/20/2025 to 01/20/2026",
+        "confidence": 0.96
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "01/20/2025 to 01/20/2026",
+        "confidence": 0.96
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Tota1 Annua1 Premium  $ 1,276.40",
+        "confidence": 0.96
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.93
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.96
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wdsee8bMFvVfk6PRHP",
+  "usage": {
+    "input_tokens": 473,
+    "output_tokens": 1418,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 7.78489399998216,
+  "batch": false
+}

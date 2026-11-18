@@ -1,0 +1,73 @@
+{
+  "doc_id": "POL-2025-013",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "Second umbrella layout; retained limit (SIR); underlying requirements.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-013",
+    "carrier": "Blue Heron Indemnity Company",
+    "policyholder": "Marcus & Delphine Okafor",
+    "policy_type": "umbrella",
+    "policy_type_detail": null,
+    "policy_form": "PUP-200",
+    "effective_date": "2025-12-01",
+    "expiration_date": "2026-12-01",
+    "premium_amount": "845.00",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Self-insured retention",
+        "amount": "1000",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Each occurrence",
+        "amount": "3000000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "Annual aggregate",
+        "amount": "3000000",
+        "basis": "aggregate",
+        "note": null
+      }
+    ],
+    "underlying_requirements": [
+      {
+        "coverage": "Automobile liability",
+        "limits_text": "300/500/100"
+      },
+      {
+        "coverage": "Homeowners liability",
+        "limits_text": "$500,000 each occurrence"
+      }
+    ],
+    "endorsements": [
+      {
+        "name": "Uninsured / Underinsured Motorist Excess",
+        "form_code": "PUP-14",
+        "limit_amount": "1000000",
+        "limit_text": null
+      },
+      {
+        "name": "Rented Watercraft Liability",
+        "form_code": "PUP-22",
+        "limit_amount": null,
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Professional services and business pursuits",
+      "Owned or chartered aircraft",
+      "Communicable disease transmission",
+      "Expected or intended injury"
+    ],
+    "exclusions_complete": true
+  }
+}

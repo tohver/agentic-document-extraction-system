@@ -1,0 +1,76 @@
+{
+  "doc_id": "POL-2025-019",
+  "expected_outcome": "human_review",
+  "expected_escalation": null,
+  "why": "Expiration date equals the effective date: a document error that must survive a retry unchanged.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-019",
+    "carrier": "Northwind Casualty & Auto",
+    "policyholder": "Dashiell Q. Brannigan",
+    "policy_type": "auto",
+    "policy_type_detail": null,
+    "policy_form": null,
+    "effective_date": "2025-07-01",
+    "expiration_date": "2025-07-01",
+    "premium_amount": "1689.30",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Collision",
+        "amount": "500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": true
+      },
+      {
+        "applies_to": "Comprehensive",
+        "amount": "500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": true
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Bodily Injury Liability",
+        "amount": "250000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Bodily Injury Liability",
+        "amount": "500000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Property Damage Liability",
+        "amount": "100000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Medical Payments",
+        "amount": "10000",
+        "basis": "per_person",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "New Vehicle Replacement",
+        "form_code": "NW-NVR",
+        "limit_amount": null,
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Racing or organized speed events",
+      "Use as a public or livery conveyance",
+      "Intentional acts"
+    ],
+    "exclusions_complete": true
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "role": "reviewer",
+  "request_model": "claude-opus-5-5",
+  "effort": "high",
+  "parsed": {
+    "verdicts": [
+      {
+        "field": "document_kind",
+        "verdict": "agree",
+        "reason": "It is a renewal confirmation that summarises the policy declarations, which counts as policy_declarations."
+      },
+      {
+        "field": "policy_number",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "carrier",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "policyholder",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "policy_type",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "policy_type_detail",
+        "verdict": "agree",
+        "reason": "The policy type is auto, so this field stays empty."
+      },
+      {
+        "field": "policy_form",
+        "verdict": "agree",
+        "reason": "The document states no form code."
+      },
+      {
+        "field": "effective_date",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "expiration_date",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "premium_amount",
+        "verdict": "agree",
+        "reason": "The total of $1,104.90 is extracted, not the $552.45 installment."
+      },
+      {
+        "field": "premium_components",
+        "verdict": "agree",
+        "reason": "The premium is not itemised."
+      },
+      {
+        "field": "deductibles",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "coverage_limits",
+        "verdict": "agree",
+        "reason": "The document explicitly states 'per person' for medical payments, so the per_person basis is supported."
+      },
+      {
+        "field": "underlying_requirements",
+        "verdict": "agree",
+        "reason": "This is not an umbrella policy, so the field stays empty."
+      },
+      {
+        "field": "endorsements",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "exclusions",
+        "verdict": "agree",
+        "reason": ""
+      },
+      {
+        "field": "exclusions_complete",
+        "verdict": "agree",
+        "reason": "The document does not say the exclusions list is partial."
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-opus-5-5",
+  "request_id": "req_011Ch8wobYJBG6ZrWH1Gjkm3",
+  "usage": {
+    "input_tokens": 1116,
+    "output_tokens": 745,
+    "cache_read_input_tokens": 3110,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 7.522091799997725,
+  "batch": false
+}

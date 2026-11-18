@@ -1,0 +1,206 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-021",
+      "carrier": "Bayview General Insurance Company",
+      "policyholder": "Priya Raghunathan",
+      "policy_type": "auto",
+      "policy_type_detail": "",
+      "policy_form": "",
+      "effective_date": "2025-04-04",
+      "expiration_date": "2026-04-04",
+      "premium_amount": "1104.90",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "Comprehensive",
+          "amount": "250",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "your comprehensive deductible is $250"
+        },
+        {
+          "applies_to": "Collision",
+          "amount": "500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "your collision deductible is $500"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Bodily Injury",
+          "amount": "100000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "bodily injury of $100,000 per person"
+        },
+        {
+          "coverage": "Bodily Injury",
+          "amount": "300000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "$300,000 per accident"
+        },
+        {
+          "coverage": "Property Damage",
+          "amount": "100000",
+          "basis": "per_accident",
+          "note": "",
+          "quote": "property damage of $100,000 per accident"
+        },
+        {
+          "coverage": "Medical Payments",
+          "amount": "5000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "Medical payments coverage is $5,000 per person"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Accident Forgiveness",
+          "form_code": "BG-AF3",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Accident Forgiveness (BG-AF3)"
+        },
+        {
+          "name": "Pet Injury Coverage",
+          "form_code": "BG-PI1",
+          "limit_amount": "1000",
+          "limit_text": "",
+          "quote": "Pet Injury Coverage with a limit of $1,000 (BG-PI1)"
+        }
+      ],
+      "exclusions": [
+        "racing or speed contests",
+        "damage caused intentionally by an insured",
+        "use of the vehicle for paid delivery"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "RENEWAL CONFIRMATION - PERSONAL AUTO",
+        "confidence": 0.93
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "policy POL-2025-021",
+        "confidence": 0.98
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "Bayview General Insurance Company",
+        "confidence": 0.96
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "issued to Priya Raghunathan",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "RENEWAL CONFIRMATION - PERSONAL AUTO",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_form",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "beginning April 4, 2025",
+        "confidence": 0.97
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "ending April 4, 2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "The total premium for this term is $1,104.90",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.92
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "Endorsements on this policy:",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "This policy does not cover:",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "This policy does not cover:",
+        "confidence": 0.93
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wo1yCnoUMCzNDH5zmX",
+  "usage": {
+    "input_tokens": 375,
+    "output_tokens": 1364,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 7.813631500001065,
+  "batch": false
+}

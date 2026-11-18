@@ -1,0 +1,35 @@
+{
+  "documents": 22,
+  "outcomes": {
+    "auto_approve": 4,
+    "spot_check": 3,
+    "human_review": 10,
+    "escalated": 5
+  },
+  "escalations": {
+    "not_a_policy": 2,
+    "missing_source": 3,
+    "retries_exhausted": 0,
+    "model_refusal": 0,
+    "truncated": 0,
+    "api_error": 0,
+    "batch_item_failed": 0
+  },
+  "finding_codes": {
+    "consistency:components_sum_mismatch": 2,
+    "consistency:term_not_positive": 2,
+    "grounding:number_not_in_quote": 3,
+    "grounding:quote_not_in_document": 2,
+    "missing_source:premium_amount_absent": 1,
+    "missing_source:referenced_not_attached": 2,
+    "not_a_policy:not_a_policy": 2
+  },
+  "calls": 45,
+  "retries": 6,
+  "input_tokens": 50427,
+  "output_tokens": 49713,
+  "cache_read_input_tokens": 223272,
+  "cache_creation_input_tokens": 0,
+  "cost_usd": "0.8098542",
+  "unpriced_calls": 0
+}

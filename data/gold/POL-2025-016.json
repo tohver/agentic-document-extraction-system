@@ -1,0 +1,25 @@
+{
+  "doc_id": "POL-2025-016",
+  "expected_outcome": "escalated",
+  "expected_escalation": "not_a_policy",
+  "why": "A claim acknowledgement letter that mentions a policy number and a deductible.",
+  "values": {
+    "document_kind": "not_a_policy",
+    "policy_number": null,
+    "carrier": null,
+    "policyholder": null,
+    "policy_type": null,
+    "policy_type_detail": null,
+    "policy_form": null,
+    "effective_date": null,
+    "expiration_date": null,
+    "premium_amount": null,
+    "premium_components": null,
+    "deductibles": null,
+    "coverage_limits": null,
+    "underlying_requirements": null,
+    "endorsements": null,
+    "exclusions": null,
+    "exclusions_complete": null
+  }
+}

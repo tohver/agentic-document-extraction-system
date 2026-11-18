@@ -1,0 +1,180 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-020",
+      "carrier": "Summit Excess & Umbrella Insurance Company",
+      "policyholder": "Odessa Lindqvist-Haddad",
+      "policy_type": "umbrella",
+      "policy_type_detail": "",
+      "policy_form": "UMB-PL-0922",
+      "effective_date": "2025-02-14",
+      "expiration_date": "2026-02-14",
+      "premium_amount": "498.00",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "self-insured retention",
+          "amount": "250.00",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Self-Insured Retention (SIR) ..............  $   250.00"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Each Occurrence Limit",
+          "amount": "1000000",
+          "basis": "per_occurrence",
+          "note": "",
+          "quote": "Each Occurrence Limit ..................  $ 1,000,000"
+        },
+        {
+          "coverage": "Aggregate Limit",
+          "amount": "1000000",
+          "basis": "aggregate",
+          "note": "",
+          "quote": "Aggregate Limit ........................  $ 1,000,000"
+        }
+      ],
+      "underlying_requirements": [
+        {
+          "coverage": "Auto Liability",
+          "limits_text": "250/500/100 BI/PD",
+          "quote": "Auto Liability ............ 250/500/100  BI/PD"
+        },
+        {
+          "coverage": "Homeowners Liability",
+          "limits_text": "$300,000 per occurrence",
+          "quote": "Homeowners Liability ...... $300,000 per occurrence"
+        }
+      ],
+      "endorsements": [],
+      "exclusions": [
+        "Business pursuits and professional services",
+        "Liability arising from aircraft ownership or operation",
+        "Intentional or criminal acts"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "Renewal Declarations",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy No:           POL-2025-020",
+        "confidence": 0.99
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "SUMMIT EXCESS & UMBRELLA INSURANCE COMPANY",
+        "confidence": 0.97
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Named Insured:       Odessa Lindqvist-Haddad",
+        "confidence": 0.99
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Personal Umbrella (Excess Liability)",
+        "confidence": 0.99
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_form",
+        "status": "stated",
+        "quote": "Policy issued in accordance with form UMB-PL-0922.",
+        "confidence": 0.97
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Policy Period:       02/14/2025  --  02/14/2026",
+        "confidence": 0.98
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Policy Period:       02/14/2025  --  02/14/2026",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Annual Premium ............................  $   498.00",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "Self-Insured Retention (SIR) ..............  $   250.00",
+        "confidence": 0.95
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "LIMITS OF LIABILITY",
+        "confidence": 0.96
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "stated",
+        "quote": "UNDERLYING REQUIRED COVERAGE (must be maintained)",
+        "confidence": 0.96
+      },
+      {
+        "field": "endorsements",
+        "status": "referenced_not_attached",
+        "quote": "Per Forms and Endorsements Schedule, page 2.",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "EXCLUSIONS:",
+        "confidence": 0.97
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS:",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wnTdmiJRGyyBfxxXW3",
+  "usage": {
+    "input_tokens": 485,
+    "output_tokens": 1378,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 7.490806500019971,
+  "batch": false
+}

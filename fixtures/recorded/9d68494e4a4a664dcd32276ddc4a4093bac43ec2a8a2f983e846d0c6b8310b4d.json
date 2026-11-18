@@ -1,0 +1,193 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-008",
+      "carrier": "Clarion Specialty Insurance Co.",
+      "policyholder": "The Whitfield-Marsh Family Trust",
+      "policy_type": "other",
+      "policy_type_detail": "Fine Art Floater",
+      "policy_form": "FA-IM-22",
+      "effective_date": "2025-06-01",
+      "expiration_date": "2026-06-01",
+      "premium_amount": "3275.18",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "scheduled items",
+          "amount": "0",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Deductible:        NIL (zero deductible on scheduled items)"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Total Scheduled Value",
+          "amount": "1427500",
+          "basis": "scheduled_total",
+          "note": "Agreed Value, All-Risk, Worldwide",
+          "quote": "TOTAL SCHEDULED VALUE ........  $ 1,427,500"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Newly Acquired Property Coverage",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "25% / 90 days",
+          "quote": "Newly Acquired Property Coverage (25% / 90 days)"
+        },
+        {
+          "name": "Pair & Set Clause",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Pair & Set Clause"
+        },
+        {
+          "name": "Breakage Coverage for Fragile Articles",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Breakage Coverage for Fragile Articles"
+        },
+        {
+          "name": "Transit Coverage - common carrier & private conveyance",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Transit Coverage - common carrier & private conveyance"
+        }
+      ],
+      "exclusions": [
+        "Wear, tear, gradual deterioration, inherent vice",
+        "Damage from restoration, repair, or retouching",
+        "Insects, vermin, mold",
+        "War, nuclear hazard",
+        "Mysterious disappearance of unscheduled items"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "Renewal Declarations Page",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy Number:     POL-2025-008",
+        "confidence": 0.99
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "Underwritten by: Clarion Specialty Insurance Co.",
+        "confidence": 0.9
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Insured:           The Whitfield-Marsh Family Trust",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Policy Type:       Specialty / Fine Art Floater",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "stated",
+        "quote": "Specialty / Fine Art Floater",
+        "confidence": 0.93
+      },
+      {
+        "field": "policy_form",
+        "status": "stated",
+        "quote": "Inland Marine - Fine Art Floater (FA-IM-22)",
+        "confidence": 0.97
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Renewal Term:      06/01/2025 to 06/01/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Renewal Term:      06/01/2025 to 06/01/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Annual Premium:    $ 3,275.18",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "Deductible:        NIL (zero deductible on scheduled items)",
+        "confidence": 0.95
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.88
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.98
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "ENDORSEMENTS:",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "EXCLUSIONS:",
+        "confidence": 0.97
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS:",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8waGbQimHg3pnKixZfy",
+  "usage": {
+    "input_tokens": 803,
+    "output_tokens": 1478,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 8.522962799994275,
+  "batch": false
+}

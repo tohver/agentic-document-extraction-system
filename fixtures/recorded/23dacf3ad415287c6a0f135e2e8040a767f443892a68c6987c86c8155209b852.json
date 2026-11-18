@@ -1,0 +1,213 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-007",
+      "carrier": "Northgate Specialty Lines",
+      "policyholder": "Rebecca Onyemaechi",
+      "policy_type": "umbrella",
+      "policy_type_detail": "",
+      "policy_form": "",
+      "effective_date": "2025-08-03",
+      "expiration_date": "2026-08-03",
+      "premium_amount": "1094.00",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "self-insured retention",
+          "amount": "500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Retained limit / SIR .............   $    500"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Per-occurrence limit",
+          "amount": "5000000",
+          "basis": "per_occurrence",
+          "note": "",
+          "quote": "Per-occurrence limit .............   $ 5,000,000"
+        },
+        {
+          "coverage": "Aggregate limit",
+          "amount": "5000000",
+          "basis": "aggregate",
+          "note": "",
+          "quote": "Aggregate limit  .................   $ 5,000,000"
+        }
+      ],
+      "underlying_requirements": [
+        {
+          "coverage": "Personal Auto",
+          "limits_text": "500/500/250",
+          "quote": "Personal Auto, 500/500/250"
+        },
+        {
+          "coverage": "Homeowners GL",
+          "limits_text": "500,000 per occurrence",
+          "quote": "Homeowners GL, 500,000 per occurrence"
+        },
+        {
+          "coverage": "Recreational Vehicle Liability",
+          "limits_text": "300,000",
+          "quote": "Recreational Vehicle Liability, 300,000"
+        },
+        {
+          "coverage": "Employers Liability (domestic staff)",
+          "limits_text": "500,000",
+          "quote": "Employers Liability (domestic staff), 500,000"
+        }
+      ],
+      "endorsements": [
+        {
+          "name": "UND-Motorist / Underinsured Motorist excess",
+          "form_code": "",
+          "limit_amount": "1000000",
+          "limit_text": "",
+          "quote": "UND-Motorist / Underinsured Motorist excess - $1,000,000"
+        },
+        {
+          "name": "Defense outside the limits endorsement",
+          "form_code": "",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "Defense outside the limits endorsement"
+        },
+        {
+          "name": "Reputational Injury & Cyber-Bullying Liability sublimit",
+          "form_code": "",
+          "limit_amount": "250000",
+          "limit_text": "",
+          "quote": "Reputational Injury & Cyber-Bullying Liability sublimit"
+        }
+      ],
+      "exclusions": [
+        "Punitive damages where uninsurable by law",
+        "Liability arising out of any owned aircraft",
+        "Liability assumed under a contract or agreement other than an \"insured contract\"",
+        "Workers compensation obligations"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "Renewal Declarations  -  Personal Umbrella",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "POL - 2025 - 007",
+        "confidence": 0.97
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "Northgate Specialty Lines / Umbrella Division",
+        "confidence": 0.88
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Rebecca Onyemaechi",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Umbrella  (Personal Excess Liability)",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "policy_form",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "effective ............ 08/03/2025",
+        "confidence": 0.85
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "expiration ........... 08/03/2026",
+        "confidence": 0.85
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Premium for the renewal term ....   $ 1,094.00",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "Retained limit / SIR",
+        "confidence": 0.93
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "",
+        "confidence": 0.93
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "stated",
+        "quote": "Schedule of underlying insurance (required to remain in force):",
+        "confidence": 0.95
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "ENDORSEMENTS",
+        "confidence": 0.88
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.97
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.97
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wYpevg4F1ghYzTr9zn",
+  "usage": {
+    "input_tokens": 530,
+    "output_tokens": 1585,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 8.480956499988679,
+  "batch": false
+}

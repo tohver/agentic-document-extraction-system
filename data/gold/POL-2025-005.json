@@ -1,0 +1,107 @@
+{
+  "doc_id": "POL-2025-005",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "Percentage named-storm deductible without a computed amount; letter layout.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-005",
+    "carrier": "Coastline Property & Casualty Insurance Company",
+    "policyholder": "Aaliyah Brennan-Cole",
+    "policy_type": "home",
+    "policy_type_detail": null,
+    "policy_form": "HO-5",
+    "effective_date": "2025-11-14",
+    "expiration_date": "2026-11-14",
+    "premium_amount": "2847.91",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "All other perils",
+        "amount": "2500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": true
+      },
+      {
+        "applies_to": "Named storm",
+        "amount": null,
+        "percent": "5",
+        "percent_of": "Coverage A",
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Coverage A (Dwelling)",
+        "amount": "612000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage B (Other Structures)",
+        "amount": "61200",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage C (Contents)",
+        "amount": "459000",
+        "basis": "other",
+        "note": "replacement cost"
+      },
+      {
+        "coverage": "Coverage D (ALE)",
+        "amount": "183600",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage E (Liability)",
+        "amount": "500000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "Coverage F (Med Pay)",
+        "amount": "5000",
+        "basis": "other",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Water Backup & Sump Overflow",
+        "form_code": null,
+        "limit_amount": "25000",
+        "limit_text": null
+      },
+      {
+        "name": "Identity Theft Restoration Services",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Equipment Breakdown Coverage",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Ordinance or Law",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": "25% of Cov A"
+      }
+    ],
+    "exclusions": [
+      "Flood damage from rising surface water",
+      "Mold, fungus, or wet rot beyond $10,000 sublimit",
+      "Damage from insects, rodents, vermin",
+      "Earth movement (sinkhole separately available)"
+    ],
+    "exclusions_complete": true
+  }
+}

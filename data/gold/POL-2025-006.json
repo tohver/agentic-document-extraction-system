@@ -1,0 +1,83 @@
+{
+  "doc_id": "POL-2025-006",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "Umbrella with self-insured retention and underlying requirements; '$1M' endorsement limit.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-006",
+    "carrier": "Summit Excess & Umbrella Insurance Company",
+    "policyholder": "Hiroshi & Eleanor Tanaka-Park",
+    "policy_type": "umbrella",
+    "policy_type_detail": null,
+    "policy_form": "UMB-PL-0922",
+    "effective_date": "2025-04-10",
+    "expiration_date": "2026-04-10",
+    "premium_amount": "612.50",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Self-insured retention",
+        "amount": "250",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Each Occurrence Limit",
+        "amount": "2000000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "Aggregate Limit (Personal Injury)",
+        "amount": "2000000",
+        "basis": "aggregate",
+        "note": null
+      }
+    ],
+    "underlying_requirements": [
+      {
+        "coverage": "Auto Liability",
+        "limits_text": "250/500/100 BI/PD"
+      },
+      {
+        "coverage": "Homeowners Liability",
+        "limits_text": "$300,000 per occurrence"
+      },
+      {
+        "coverage": "Watercraft Liability",
+        "limits_text": "$300,000"
+      }
+    ],
+    "endorsements": [
+      {
+        "name": "Worldwide Personal Injury Extension",
+        "form_code": "UMB-12",
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Uninsured / Underinsured Motorist Excess",
+        "form_code": "UMB-09",
+        "limit_amount": "1000000",
+        "limit_text": null
+      },
+      {
+        "name": "Not-for-Profit Director & Officer Coverage",
+        "form_code": "UMB-31",
+        "limit_amount": null,
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Business pursuits and professional services",
+      "Liability arising from aircraft ownership or operation",
+      "Damage to property owned by or in care of the insured",
+      "Intentional or criminal acts"
+    ],
+    "exclusions_complete": true
+  }
+}

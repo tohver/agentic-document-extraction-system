@@ -1,0 +1,95 @@
+{
+  "doc_id": "POL-2025-012",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "Letter layout with dates in words; 1% wind/hail deductible with the computed amount stated.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-012",
+    "carrier": "Prairie Hearth Mutual Insurance",
+    "policyholder": "Tomasz and Alicja Wierzbicki",
+    "policy_type": "home",
+    "policy_type_detail": null,
+    "policy_form": "HO-3",
+    "effective_date": "2025-03-01",
+    "expiration_date": "2026-03-01",
+    "premium_amount": "1932.00",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "All other perils",
+        "amount": "1000",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": true
+      },
+      {
+        "applies_to": "Windstorm or hail",
+        "amount": "4100",
+        "percent": "1",
+        "percent_of": "Coverage A",
+        "labelled_primary": false
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Coverage A - Dwelling",
+        "amount": "410000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage B - Other Structures",
+        "amount": "41000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage C - Personal Property",
+        "amount": "205000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage D - Loss of Use",
+        "amount": "82000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage E - Personal Liability",
+        "amount": "300000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "Coverage F - Medical Payments",
+        "amount": "2000",
+        "basis": "per_person",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Personal Property Replacement Cost",
+        "form_code": "HO 04 90",
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Water Back-Up and Sump Discharge",
+        "form_code": "HO 04 95",
+        "limit_amount": "5000",
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Flood",
+      "Earth movement",
+      "Neglect",
+      "Intentional loss"
+    ],
+    "exclusions_complete": true
+  }
+}

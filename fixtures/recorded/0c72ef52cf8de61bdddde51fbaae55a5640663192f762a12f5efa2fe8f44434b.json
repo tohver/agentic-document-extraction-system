@@ -1,0 +1,221 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-022",
+      "carrier": "AMBERLEIGH PREMIER HOMEOWNERS INSURANCE CO.",
+      "policyholder": "The Castellanos-Reyes Revocable Trust",
+      "policy_type": "home",
+      "policy_type_detail": "",
+      "policy_form": "HO-5",
+      "effective_date": "2025-10-10",
+      "expiration_date": "2026-10-10",
+      "premium_amount": "3412.60",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "All Other Perils",
+          "amount": "2500",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": true,
+          "quote": "All Other Perils .....................  $ 2,500"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "A Dwelling",
+          "amount": "780000",
+          "basis": "other",
+          "note": "",
+          "quote": "A  Dwelling ..........................  $ 780,000"
+        },
+        {
+          "coverage": "B Other Structures",
+          "amount": "78000",
+          "basis": "other",
+          "note": "",
+          "quote": "B  Other Structures ..................  $  78,000"
+        },
+        {
+          "coverage": "C Personal Property",
+          "amount": "546000",
+          "basis": "other",
+          "note": "",
+          "quote": "C  Personal Property .................  $ 546,000"
+        },
+        {
+          "coverage": "D Loss of Use",
+          "amount": "156000",
+          "basis": "other",
+          "note": "",
+          "quote": "D  Loss of Use .......................  $ 156,000"
+        },
+        {
+          "coverage": "E Personal Liability",
+          "amount": "500000",
+          "basis": "per_occurrence",
+          "note": "",
+          "quote": "E  Personal Liability ................  $ 500,000 each occurrence"
+        },
+        {
+          "coverage": "F Medical Payments to Others",
+          "amount": "10000",
+          "basis": "per_person",
+          "note": "",
+          "quote": "F  Medical Payments to Others ........  $  10,000 each person"
+        }
+      ],
+      "underlying_requirements": [],
+      "endorsements": [
+        {
+          "name": "Scheduled Personal Property (Fine Arts)",
+          "form_code": "HO 04 61",
+          "limit_amount": "40000",
+          "limit_text": "",
+          "quote": "HO 04 61  Scheduled Personal Property (Fine Arts) - $40,000"
+        },
+        {
+          "name": "Specified Additional Amount of Insurance",
+          "form_code": "HO 04 20",
+          "limit_amount": null,
+          "limit_text": "25%",
+          "quote": "HO 04 20  Specified Additional Amount of Insurance (25%)"
+        },
+        {
+          "name": "Equipment Breakdown",
+          "form_code": "HO 06 34",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "HO 06 34  Equipment Breakdown"
+        }
+      ],
+      "exclusions": [
+        "Flood",
+        "Earth movement",
+        "War",
+        "Nuclear hazard",
+        "Governmental action"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "Premier Homeowners Policy - HO-5 Comprehensive Form",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy Number:      POL-2025-022",
+        "confidence": 0.99
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "AMBERLEIGH PREMIER HOMEOWNERS INSURANCE CO.",
+        "confidence": 0.98
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Named Insured:      The Castellanos-Reyes Revocable Trust",
+        "confidence": 0.99
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Premier Homeowners Policy",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "policy_form",
+        "status": "stated",
+        "quote": "HO-5 Comprehensive Form",
+        "confidence": 0.97
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Policy Period:      10/10/2025 to 10/10/2026",
+        "confidence": 0.98
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Policy Period:      10/10/2025 to 10/10/2026",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Annual Premium:     $ 3,412.60",
+        "confidence": 0.99
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "All Other Perils .....................  $ 2,500",
+        "confidence": 0.92
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "COVERAGES                                 LIMITS",
+        "confidence": 0.95
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.97
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "ENDORSEMENTS",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.97
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS",
+        "confidence": 0.96
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wpAAbgmJmqaCV7cADb",
+  "usage": {
+    "input_tokens": 465,
+    "output_tokens": 1663,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 8.42215739999665,
+  "batch": false
+}

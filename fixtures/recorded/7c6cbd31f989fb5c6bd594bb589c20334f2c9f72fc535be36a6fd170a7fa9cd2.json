@@ -1,0 +1,208 @@
+{
+  "role": "extractor",
+  "request_model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "parsed": {
+    "record": {
+      "document_kind": "policy_declarations",
+      "policy_number": "POL-2025-006",
+      "carrier": "Summit Excess & Umbrella Ins Co.",
+      "policyholder": "Hiroshi & Eleanor Tanaka-Park",
+      "policy_type": "umbrella",
+      "policy_type_detail": "",
+      "policy_form": "UMB-PL-0922",
+      "effective_date": "2025-04-10",
+      "expiration_date": "2026-04-10",
+      "premium_amount": "612.50",
+      "premium_components": [],
+      "deductibles": [
+        {
+          "applies_to": "self-insured retention",
+          "amount": "250.00",
+          "percent": null,
+          "percent_of": "",
+          "labelled_primary": false,
+          "quote": "Self-Insured Retention (SIR) ..............  $   250.00"
+        }
+      ],
+      "coverage_limits": [
+        {
+          "coverage": "Each Occurrence Limit",
+          "amount": "2000000",
+          "basis": "per_occurrence",
+          "note": "",
+          "quote": "Each Occurrence Limit ..................  $ 2,000,000"
+        },
+        {
+          "coverage": "Aggregate Limit (Personal Injury)",
+          "amount": "2000000",
+          "basis": "aggregate",
+          "note": "",
+          "quote": "Aggregate Limit (Personal Injury) ......  $ 2,000,000"
+        }
+      ],
+      "underlying_requirements": [
+        {
+          "coverage": "Auto Liability",
+          "limits_text": "250/500/100 BI/PD",
+          "quote": "Auto Liability ............ 250/500/100  BI/PD"
+        },
+        {
+          "coverage": "Homeowners Liability",
+          "limits_text": "$300,000 per occurrence",
+          "quote": "Homeowners Liability ...... $300,000 per occurrence"
+        },
+        {
+          "coverage": "Watercraft Liability",
+          "limits_text": "$300,000",
+          "quote": "Watercraft Liability ...... $300,000"
+        }
+      ],
+      "endorsements": [
+        {
+          "name": "Worldwide Personal Injury Extension",
+          "form_code": "UMB-12",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "UMB-12   Worldwide Personal Injury Extension"
+        },
+        {
+          "name": "Uninsured / Underinsured Motorist Excess",
+          "form_code": "UMB-09",
+          "limit_amount": "1000000",
+          "limit_text": "",
+          "quote": "UMB-09   Uninsured / Underinsured Motorist Excess - $1M"
+        },
+        {
+          "name": "Not-for-Profit Director & Officer Coverage",
+          "form_code": "UMB-31",
+          "limit_amount": null,
+          "limit_text": "",
+          "quote": "UMB-31   Not-for-Profit Director & Officer Coverage"
+        }
+      ],
+      "exclusions": [
+        "Business pursuits and professional services",
+        "Liability arising from aircraft ownership or operation",
+        "Damage to property owned by or in care of the insured",
+        "Intentional or criminal acts"
+      ],
+      "exclusions_complete": true
+    },
+    "evidence": [
+      {
+        "field": "document_kind",
+        "status": "stated",
+        "quote": "Renewal Declarations",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_number",
+        "status": "stated",
+        "quote": "Policy No:           POL-2025-006",
+        "confidence": 0.99
+      },
+      {
+        "field": "carrier",
+        "status": "stated",
+        "quote": "Underwritten by: Summit Excess & Umbrella Ins Co., Hartford CT",
+        "confidence": 0.85
+      },
+      {
+        "field": "policyholder",
+        "status": "stated",
+        "quote": "Named Insured:       Hiroshi & Eleanor Tanaka-Park",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type",
+        "status": "stated",
+        "quote": "Policy Type:         Personal Umbrella (Excess Liability)",
+        "confidence": 0.98
+      },
+      {
+        "field": "policy_type_detail",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "policy_form",
+        "status": "stated",
+        "quote": "Policy issued in accordance with form UMB-PL-0922.",
+        "confidence": 0.97
+      },
+      {
+        "field": "effective_date",
+        "status": "stated",
+        "quote": "Policy Period:       04/10/2025  --  04/10/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "expiration_date",
+        "status": "stated",
+        "quote": "Policy Period:       04/10/2025  --  04/10/2026",
+        "confidence": 0.97
+      },
+      {
+        "field": "premium_amount",
+        "status": "stated",
+        "quote": "Annual Premium ............................  $   612.50",
+        "confidence": 0.98
+      },
+      {
+        "field": "premium_components",
+        "status": "not_stated",
+        "quote": "",
+        "confidence": 0.95
+      },
+      {
+        "field": "deductibles",
+        "status": "stated",
+        "quote": "Self-Insured Retention (SIR) ..............  $   250.00",
+        "confidence": 0.95
+      },
+      {
+        "field": "coverage_limits",
+        "status": "stated",
+        "quote": "LIMITS OF LIABILITY",
+        "confidence": 0.95
+      },
+      {
+        "field": "underlying_requirements",
+        "status": "stated",
+        "quote": "UNDERLYING REQUIRED COVERAGE (must be maintained)",
+        "confidence": 0.95
+      },
+      {
+        "field": "endorsements",
+        "status": "stated",
+        "quote": "ENDORSEMENTS:",
+        "confidence": 0.95
+      },
+      {
+        "field": "exclusions",
+        "status": "stated",
+        "quote": "EXCLUSIONS:",
+        "confidence": 0.96
+      },
+      {
+        "field": "exclusions_complete",
+        "status": "stated",
+        "quote": "EXCLUSIONS:",
+        "confidence": 0.97
+      }
+    ]
+  },
+  "stop_reason": "end_turn",
+  "model": "claude-sonnet-5-5",
+  "request_id": "req_011Ch8wXWNoQxFzALzCYfUfR",
+  "usage": {
+    "input_tokens": 640,
+    "output_tokens": 1701,
+    "cache_read_input_tokens": 6044,
+    "cache_creation_input_tokens": 0
+  },
+  "latency_s": 9.788883000030182,
+  "batch": false
+}

@@ -1,0 +1,107 @@
+{
+  "doc_id": "POL-2025-001",
+  "expected_outcome": "auto_approve",
+  "expected_escalation": null,
+  "why": "Clean auto declarations; primary deductible stated on its own line.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-001",
+    "carrier": "Anywhere Insurance Co.",
+    "policyholder": "John R. Smith",
+    "policy_type": "auto",
+    "policy_type_detail": null,
+    "policy_form": null,
+    "effective_date": "2025-03-15",
+    "expiration_date": "2026-03-15",
+    "premium_amount": "1847.62",
+    "premium_components": null,
+    "deductibles": [
+      {
+        "applies_to": "Comprehensive",
+        "amount": "500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      },
+      {
+        "applies_to": "Collision",
+        "amount": "1000",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": false
+      },
+      {
+        "applies_to": "Primary",
+        "amount": "500",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": true
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Bodily Injury Liability",
+        "amount": "100000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Bodily Injury Liability",
+        "amount": "300000",
+        "basis": "per_accident",
+        "note": null
+      },
+      {
+        "coverage": "Property Damage Liability",
+        "amount": "50000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "Personal Injury Protection (PIP)",
+        "amount": "10000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Uninsured Motorist BI",
+        "amount": "100000",
+        "basis": "per_person",
+        "note": null
+      },
+      {
+        "coverage": "Uninsured Motorist BI",
+        "amount": "300000",
+        "basis": "per_accident",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Rental Reimbursement Endorsement",
+        "form_code": "AU-21",
+        "limit_amount": null,
+        "limit_text": "$40/day, 30 day max"
+      },
+      {
+        "name": "Roadside Assistance Coverage",
+        "form_code": "AU-44",
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Additional Insured: Anywhere Auto Leasing LLC",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Racing or speed contest activity",
+      "Use of vehicle for ride-share / TNC purposes without endorsement",
+      "Intentional acts by the insured"
+    ],
+    "exclusions_complete": true
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "doc_id": "POL-2025-010",
+  "expected_outcome": "human_review",
+  "expected_escalation": null,
+  "why": "Premium components sum to 2,350.00 but the stated premium is 2,400.00: a document discrepancy.",
+  "values": {
+    "document_kind": "policy_declarations",
+    "policy_number": "POL-2025-010",
+    "carrier": "Evergreen Homeowners Insurance Company",
+    "policyholder": "Karina Delacroix",
+    "policy_type": "home",
+    "policy_type_detail": null,
+    "policy_form": "HO-3",
+    "effective_date": "2025-02-18",
+    "expiration_date": "2026-02-18",
+    "premium_amount": "2400.00",
+    "premium_components": [
+      {
+        "name": "Base Policy Premium",
+        "amount": "800.00"
+      },
+      {
+        "name": "Coverage A - Dwelling charge",
+        "amount": "1100.00"
+      },
+      {
+        "name": "Coverage B - Other Structures charge",
+        "amount": "350.00"
+      },
+      {
+        "name": "Endorsement charges",
+        "amount": "200.00"
+      },
+      {
+        "name": "Multi-policy / Loyalty Discount",
+        "amount": "-100.00"
+      }
+    ],
+    "deductibles": [
+      {
+        "applies_to": "All Other Perils",
+        "amount": "1000",
+        "percent": null,
+        "percent_of": null,
+        "labelled_primary": true
+      }
+    ],
+    "coverage_limits": [
+      {
+        "coverage": "Coverage A - Dwelling",
+        "amount": "348000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage B - Other Structures",
+        "amount": "34800",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage C - Personal Property",
+        "amount": "174000",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage D - Loss of Use",
+        "amount": "69600",
+        "basis": "other",
+        "note": null
+      },
+      {
+        "coverage": "Coverage E - Personal Liability",
+        "amount": "300000",
+        "basis": "per_occurrence",
+        "note": null
+      },
+      {
+        "coverage": "Coverage F - Medical Payments",
+        "amount": "5000",
+        "basis": "other",
+        "note": null
+      }
+    ],
+    "underlying_requirements": null,
+    "endorsements": [
+      {
+        "name": "Water Backup of Sewers & Drains",
+        "form_code": null,
+        "limit_amount": "10000",
+        "limit_text": null
+      },
+      {
+        "name": "Personal Property Replacement Cost",
+        "form_code": null,
+        "limit_amount": null,
+        "limit_text": null
+      },
+      {
+        "name": "Identity Fraud Expense Coverage",
+        "form_code": null,
+        "limit_amount": "15000",
+        "limit_text": null
+      }
+    ],
+    "exclusions": [
+      "Flood and surface water",
+      "Earth movement, including earthquake",
+      "War and nuclear hazard",
+      "Power failure originating off-premises"
+    ],
+    "exclusions_complete": true
+  }
+}
