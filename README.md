@@ -188,4 +188,3 @@ legacy/                 the earlier prototype, kept for reference only
 ```
 
 Python 3.14, uv, the official `anthropic` SDK, Pydantic, Typer, pytest, mypy (strict), ruff.
-Conventions and the full specification are in [CLAUDE.md](CLAUDE.md).
